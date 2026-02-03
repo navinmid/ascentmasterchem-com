@@ -126,6 +126,17 @@ html {
   box-shadow: none;
 }
 
+/* Logo and Title Size Customization */
+.VPNavBar .logo {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+.VPNavBar .title {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+}
+
 /* Mobile view - show phone prominently */
 @media (max-width: 960px) {
   .nav-phone {

@@ -142,27 +142,26 @@ const testimonials = [
     <div class="hero-circle hero-circle-3"></div>
   </div>
   <div class="hero-content">
-    <div class="hero-badge">🏆 Premium Quality Since 2010</div>
+    <div class="hero-badge">🏆 Premium Quality Since 2009</div>
     <h1 class="hero-title">
       <span class="gradient-text">Premium Chemical Solutions</span><br/>
       <span class="hero-subtitle-text">for Your Home</span>
     </h1>
     <p class="hero-description">
-      Leading manufacturer of construction chemicals including bonding agents, grouts, flooring systems, sealants, and specialty products. Trusted by homeowners and professionals across Tamilnadu, India.
+     Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 100+ high-performance products across multiple industrial segments.
     </p>
     <div class="hero-actions">
+      <a href="about" class="btn-primary">
+        <span>Learn more</span>
+      </a>
       <a href="#products" class="btn-primary">
         <span>Explore Products</span>
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3L13 8L8 13M13 8H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
-      <a href="#contact" class="btn-primary">
-        <span>Get in Touch</span>
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M14 11V13.5C14 14.328 13.328 15 12.5 15C6.159 15 1 9.841 1 3.5C1 2.672 1.672 2 2.5 2H5L6.5 5.5L4.75 7.25C5.849 9.448 6.552 10.151 8.75 11.25L10.5 9.5L14 11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
     </div>
     <div class="hero-stats">
       <div class="stat-item">
-        <div class="stat-number">500+</div>
+        <div class="stat-number">100+</div>
         <div class="stat-label">Products</div>
       </div>
       <div class="stat-divider"></div>
@@ -172,7 +171,7 @@ const testimonials = [
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
-        <div class="stat-number">15+</div>
+        <div class="stat-number">16+</div>
         <div class="stat-label">Years Experience</div>
       </div>
     </div>
@@ -432,14 +431,30 @@ const testimonials = [
   box-sizing: border-box;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 /* Hero Section */
 .hero-section {
   position: relative;
-  padding: 120px 24px 100px;
+  padding: 0;
   background: var(--bg-gradient);
   text-align: center;
-  margin: -24px -24px 0 -24px;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  margin-top: -24px;
+  margin-bottom: 0;
+  width: 100vw;
   overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
 }
 
 .hero-background {
@@ -449,6 +464,7 @@ const testimonials = [
   right: 0;
   bottom: 0;
   overflow: hidden;
+  background: rgba(1, 76, 168, 0.85);
 }
 
 .hero-circle {
@@ -493,6 +509,8 @@ const testimonials = [
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
+  padding: 120px 24px;
+  width: 100%;
 }
 
 .hero-badge {
