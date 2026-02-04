@@ -478,6 +478,11 @@ body, html {
   padding: 120px 24px;
   width: 100%;
 }
+@media (max-width: 480px) {
+  .hero-content {
+    padding: 40px 24px;
+  }
+}
 
 .hero-badge {
   display: inline-block;
