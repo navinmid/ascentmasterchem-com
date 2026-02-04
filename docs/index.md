@@ -195,7 +195,7 @@ const testimonials = [
      Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 100+ high-performance products across multiple industrial segments.
     </p>
     <div class="hero-actions">
-      <a href="about" class="btn-primary">
+      <a href="about.html" class="btn-primary">
         <span>Learn more</span>
       </a>
       <a href="#products" class="btn-primary">
