@@ -11,100 +11,144 @@ head:
 <script setup>
 import { ref } from 'vue'
 
-const products = {
-  bonding: [
-    {
-      name: 'Latex Bonding Agent',
-      description: 'A liquid polymer-based bonding chemical supplied in ready-to-use form, compatible with cement and mortar systems.',
-      icon: '🔗',
-      image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&auto=format&fit=crop'
-    },
-    {
-      name: 'Epoxy Bonding Agent',
-      description: 'A two-component resin and hardener–based bonding system that forms a rigid, high-strength adhesive layer after mixing.',
-      icon: '⚡',
-      image: 'https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=800&auto=format&fit=crop'
-    },
-    {
-      name: 'Crack Filler',
-      description: 'A specially formulated material available in epoxy, PU, or acrylic base, designed for filling cracks in concrete surfaces.',
-      icon: '🔧',
-      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&auto=format&fit=crop'
-    },
-    {
-      name: 'Micro Concrete',
-      description: 'A pre-packed, cement-based, free-flow repair material with non-shrink and high-strength properties.',
-      icon: '🏗️',
-      image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&auto=format&fit=crop'
-    }
-  ],
-  grouting: [
-    {
-      name: 'Non-Shrink Grout',
-      description: 'A pre-packed, cement-based grouting material with controlled expansion properties, supplied in powder form and mixed with water to obtain a free-flow or trowelable consistency.',
-      icon: '📦',
-      image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&auto=format&fit=crop'
-    },
-    {
-      name: 'Epoxy Flooring',
-      description: 'A resin-based flooring system made from epoxy resin and hardener, forming a seamless, rigid surface layer after curing, available in self-leveling and multi-coat formulations.',
-      icon: '✨',
-      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop'
-    },
-    {
-      name: 'PU Flooring',
-      description: 'A polyurethane-based flooring system designed as a flexible, seamless surface, available in self-smoothing and screed types with good resistance to thermal movement.',
-      icon: '🏠',
-      image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&auto=format&fit=crop'
-    }
-  ],
-  sealants: [
-    {
-      name: 'PU Sealant',
-      description: 'A polyurethane-based, single or two-component sealant supplied in paste form, designed to remain elastic after curing with good adhesion to common construction surfaces.',
-      icon: '🛡️',
-      image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&auto=format&fit=crop'
-    },
-    {
-      name: 'Silicone Sealant',
-      description: 'A silicone polymer–based sealant available in neutral or acetoxy cure types, supplied as a ready-to-use paste with long-term flexibility and weather stability.',
-      icon: '💧',
-      image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&auto=format&fit=crop'
-    },
-    {
-      name: 'Rebar Protection Coating',
-      description: 'A cementitious or polymer-modified protective coating formulated for application on reinforcement steel, creating a protective layer over rebars after curing.',
-      icon: '🔒',
-      image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&auto=format&fit=crop'
-    }
-  ],
-  special: [
-    {
-      name: 'Epoxy Adhesive',
-      description: 'A two-component adhesive system consisting of epoxy resin and hardener, supplied in pre-measured packs and forming a rigid, high-strength bond after curing.',
-      icon: '🧲',
-      image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&auto=format&fit=crop'
-    },
-    {
-      name: 'Heat Resistant Coating',
-      description: 'A specially formulated coating designed to withstand elevated temperatures, supplied as a liquid or paste and forming a stable protective film after curing.',
-      icon: '🔥',
-      image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&auto=format&fit=crop'
-    },
-    {
-      name: 'Fire Resistant Coating',
-      description: 'A protective coating system formulated to resist fire exposure, supplied as a ready-to-apply material that forms an insulating layer when exposed to high heat.',
-      icon: '🧯',
-      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&auto=format&fit=crop'
-    },
-    {
-      name: 'Rust Remover',
-      description: 'A chemical formulation supplied in liquid or gel form, designed to react with and remove rust from metal surfaces, leaving a clean surface after treatment.',
-      icon: '⚙️',
-      image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&auto=format&fit=crop'
-    }
-  ]
-}
+const products = [
+  {
+    name: "Concrete Admixtures",
+    caption: "Smart admixtures for stronger, longer-lasting concrete.",
+    icon: "🧪",
+    image: "products/admixtures.jpeg",
+    items: [
+      {
+        name: 'Plasticizer',
+        description: 'Plasticizers are concrete admixtures designed to improve the workability of concrete without increasing water content. By reducing the water requirement, they help achieve better consistency while enhancing the overall strength, durability, and surface finish of the concrete.',
+        icon: '💧'
+      },
+      {
+        name: 'Super Plasticizer',
+        description: 'Super plasticizers are high-performance concrete admixtures that greatly increase workability while significantly reducing the water–cement ratio. This results in high-strength, dense, and durable concrete with excellent flow and finish, making them ideal for high-performance and reinforced concrete applications.',
+        icon: '💧⚡'
+      },
+      {
+        name: 'Accelerator',
+        description: 'Accelerators are concrete admixtures that speed up the setting and hardening process of concrete. By promoting early strength gain, they help reduce construction time and allow for faster formwork removal and quicker project completion.',
+        icon: '⚡'
+      },
+      {
+        name: 'Retarder',
+        description: 'Retarders are concrete admixtures used to delay the setting time of concrete, preventing premature stiffening during placement and finishing. They are especially suitable for hot weather conditions and long pours, ensuring better workability and uniform concrete quality.',
+        icon: '⏳'
+      },
+      {
+        name: 'Integral Waterproofing Admixture',
+        description: 'Integral waterproofing admixtures reduce the permeability of concrete, significantly improving its resistance to water penetration. By enhancing durability and providing protection against corrosion, they help extend the service life of concrete structures exposed to moisture.',
+        icon: '🛡️💧'
+      },
+      {
+        name: 'Curing Compound',
+        description: 'Curing compounds are applied to fresh concrete to retain moisture and ensure proper cement hydration. By preventing rapid moisture loss, they help reduce surface cracks and improve the strength and durability of the finished concrete.',
+        icon: '🛠️💧'
+      }
+    ]
+  },
+  {
+    name: "Tile Adhesives",
+    caption: "High-performance adhesives for every tile type.",
+    icon: "🔗",
+    image: "products/tile-adhesive.jpeg",
+    items: [
+      {
+        name: 'MASTER CHEM 1008 (Interior – Ceramic & Vitrified)',
+        description: 'MASTER CHEM 1008 is a high-quality tile adhesive designed for interior applications, perfect for ceramic and vitrified tiles. It ensures strong adhesion, smooth application, and a durable, long-lasting finish for walls and floors.',
+        icon: '🟦'
+      },
+      {
+        name: '⁠MASTER CHEM 1017 (Wall & Floor – Residential / Commercial)',
+        description: 'MASTER CHEM 1017 is a versatile tile adhesive suitable for both wall and floor installations in residential and commercial spaces. It provides excellent bonding, easy workability, and reliable performance under daily use.',
+        icon: '🟦🟦'
+      },
+      {
+        name: 'MASTER CHEM 1026 (Large Format Tiles & Stone)',
+        description: 'MASTER CHEM 1026 is specially formulated for large-format tiles and natural stone installations. It offers superior grip, prevents slippage, and ensures a uniform, professional finish for demanding projects.',
+        icon: '🪨🟦'
+      },
+      {
+        name: ' ⁠MASTER CHEM 1035 (Exterior, Wet Areas & Heavy Duty)',
+        description: 'MASTER CHEM 1035 is a robust, heavy-duty tile adhesive suitable for exterior surfaces, wet areas, and high-traffic zones. It delivers excellent water resistance, strong bonding, and long-term durability in challenging conditions.',
+        icon: '☔🟦'
+      }
+    ]
+  },
+  {
+    name: "Cementitious Grout",
+    caption: "Durable grout for every tile application.",
+    icon: "➖",
+    image: "products/grouts.jpeg",
+    items: [
+      {
+        name: 'MASTER CHEM 1008 (Unsanded)',
+        description: 'MASTER CHEM 1008 is an unsanded cementitious grout ideal for narrow joints up to 3mm. It provides smooth filling, excellent adhesion, and a neat, uniform finish for interior tile installations.',
+        icon: '🟦✏️'
+      },
+      {
+        name: '⁠MASTER CHEM 1017 (Standard Grade)',
+        description: 'MASTER CHEM 1017 is a standard-grade cementitious grout suitable for general-purpose tile joints. It ensures strong bonding, consistent color, and durability for both wall and floor applications.',
+        icon: '🟦🟦'
+      },
+      {
+        name: 'MASTER CHEM 1026 (Polymer Modified)',
+        description: 'MASTER CHEM 1026 is a polymer-modified cementitious grout that enhances flexibility, adhesion, and water resistance. It is ideal for areas exposed to moisture or slight movement, providing a durable and long-lasting finish.',
+        icon: '🟦💧'
+      },
+      {
+        name: ' ⁠MASTER CHEM 1035 (Heavy Duty)',
+        description: 'MASTER CHEM 1035 is a heavy-duty cementitious grout designed for high-traffic areas and demanding installations. It delivers exceptional strength, crack resistance, and long-term performance under tough conditions.',
+        icon: '🟦🪨'
+      }
+    ]
+  },
+  {
+    name: "Epoxy Based Waterproof Tile Joint Filler",
+    caption: "MASTER CHEM 1044 is an epoxy-based waterproof tile joint filler designed for high-performance applications. It provides exceptional chemical resistance, durability, and long-lasting protection for tile joints in wet or heavy-duty areas.",
+    icon: "💧",
+    image: "products/epoxy.jpeg",
+    items: []
+  },
+  {
+    name: "Acid Based Tile Cleaner",
+    caption: "MASTER CHEM 1053 is a powerful acid-based tile cleaner formulated to remove tough stains, cement residues, and mineral deposits. It restores the natural shine and cleanliness of tiles while being suitable for heavy-duty cleaning.",
+    icon: "🧽",
+    image: "products/tile-cleaner.jpeg",
+    items: []
+  },
+  {
+    name: "Fly Ash Bricks",
+    caption: "Fly ash bricks are eco-friendly building blocks made from fly ash, cement, and water. They offer high strength, uniform size, and excellent durability, while reducing environmental impact by utilizing industrial by-products. Ideal for walls, partitions, and structural applications, these bricks provide superior insulation, low water absorption, and long-term stability.",
+    icon: "🧱",
+    image: "products/fly-ash.jpeg",
+    items: []
+  },
+  {
+    name: "Paver Blocks",
+    caption: "Paver blocks are durable, high-strength concrete blocks used for constructing driveways, walkways, patios, and parking areas. They offer excellent load-bearing capacity, slip resistance, and aesthetic appeal. Available in various shapes, sizes, and colors, paver blocks provide a long-lasting, low-maintenance, and visually appealing paving solution.",
+    icon: "🧱",
+    image: "products/paver-block.jpeg",
+    items: []
+  },
+  {
+    name: "Solid Bricks",
+    caption: "Solid bricks are high-strength, dense building blocks made from clay or concrete, widely used in walls, foundations, and structural applications. They provide excellent load-bearing capacity, durability, and thermal insulation, ensuring long-lasting and stable construction.",
+    icon: "🧱",
+    image: "products/solid-bricks.jpeg",
+    items: []
+  },
+  {
+    name: "Interlocking Bricks",
+    caption: "Interlocking bricks are specially designed concrete or clay blocks that fit together without the need for mortar. They provide fast, stable, and cost-effective construction while maintaining high strength, durability, and load-bearing capacity. Ideal for walls, pavements, and landscaping, interlocking bricks reduce construction time and material usage.",
+    icon: "🔗",
+    image: "products/inter-locking.jpeg",
+    items: []
+  }
+]
 
 const testimonials = [
   {
@@ -211,109 +255,31 @@ const testimonials = [
     <p class="section-subtitle">Comprehensive range of chemical solutions for every home improvement need</p>
   </div>
 
-  <!-- Bonding & Repair -->
-  <div class="product-category">
+  <!-- Products -->
+  <div v-for="product in products" :key="product.name" class="product-category">
     <div class="category-header">
       <div class="category-icon-wrapper">
-        <span class="category-icon">🔗</span>
+        <span class="category-icon">{{ product.icon }}</span>
       </div>
       <div>
-        <h3>Bonding & Repair</h3>
-        <p class="category-desc">High-strength bonding solutions for lasting repairs</p>
+        <h3>{{ product.name }}</h3>
+        <p class="category-desc">{{ product.caption }}</p>
       </div>
     </div>
+    <div class="product-image-wrapper">
+        <img :src="product.image" :alt="product.name" class="product-image" loading="lazy" />
+    </div>
     <div class="products-grid">
-      <div v-for="product in products.bonding" :key="product.name" class="product-card">
+      <div v-for="item in product.items" :key="item.name" class="product-card">
         <div class="product-header">
-          <div class="product-icon">{{ product.icon }}</div>
+          <div class="product-icon">{{ item.icon }}</div>
           <span class="product-badge">Popular</span>
         </div>
-        <h4>{{ product.name }}</h4>
-        <p>{{ product.description }}</p>
-        <div class="product-image-wrapper">
-          <img :src="product.image" :alt="product.name" class="product-image" loading="lazy" />
-        </div>
-        <a href="#contact" class="product-link">Learn More →</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Grouting & Flooring -->
-  <div class="product-category">
-    <div class="category-header">
-      <div class="category-icon-wrapper">
-        <span class="category-icon">🏠</span>
-      </div>
-      <div>
-        <h3>Grouting & Flooring</h3>
-        <p class="category-desc">Premium flooring systems for durable surfaces</p>
-      </div>
-    </div>
-    <div class="products-grid">
-      <div v-for="product in products.grouting" :key="product.name" class="product-card">
-        <div class="product-header">
-          <div class="product-icon">{{ product.icon }}</div>
-          <span class="product-badge">Premium</span>
-        </div>
-        <h4>{{ product.name }}</h4>
-        <p>{{ product.description }}</p>
-        <div class="product-image-wrapper">
-          <img :src="product.image" :alt="product.name" class="product-image" loading="lazy" />
-        </div>
-        <a href="#contact" class="product-link">Learn More →</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Sealants & Protection -->
-  <div class="product-category">
-    <div class="category-header">
-      <div class="category-icon-wrapper">
-        <span class="category-icon">🛡️</span>
-      </div>
-      <div>
-        <h3>Sealants & Protection</h3>
-        <p class="category-desc">Advanced protection for long-lasting results</p>
-      </div>
-    </div>
-    <div class="products-grid">
-      <div v-for="product in products.sealants" :key="product.name" class="product-card">
-        <div class="product-header">
-          <div class="product-icon">{{ product.icon }}</div>
-          <span class="product-badge">Quality</span>
-        </div>
-        <h4>{{ product.name }}</h4>
-        <p>{{ product.description }}</p>
-        <div class="product-image-wrapper">
-          <img :src="product.image" :alt="product.name" class="product-image" loading="lazy" />
-        </div>
-        <a href="#contact" class="product-link">Learn More →</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Special Products -->
-  <div class="product-category">
-    <div class="category-header">
-      <div class="category-icon-wrapper">
-        <span class="category-icon">⭐</span>
-      </div>
-      <div>
-        <h3>Special Products</h3>
-        <p class="category-desc">Innovative solutions for unique challenges</p>
-      </div>
-    </div>
-    <div class="products-grid">
-      <div v-for="product in products.special" :key="product.name" class="product-card">
-        <div class="product-header">
-          <div class="product-icon">{{ product.icon }}</div>
-          <span class="product-badge">Special</span>
-        </div>
-        <h4>{{ product.name }}</h4>
-        <p>{{ product.description }}</p>
-        <div class="product-image-wrapper">
-          <img :src="product.image" :alt="product.name" class="product-image" loading="lazy" />
-        </div>
+        <h4>{{ item.name }}</h4>
+        <p>{{ item.description }}</p>
+        <!-- <div class="product-image-wrapper">
+          <img :src="item.image" :alt="item.name" class="product-image" loading="lazy" />
+        </div> -->
         <a href="#contact" class="product-link">Learn More →</a>
       </div>
     </div>
@@ -901,7 +867,7 @@ body, html {
 
 .product-image-wrapper {
   width: 100%;
-  height: 200px;
+  height: 400px;
   overflow: hidden;
   margin: 20px 0;
   padding: 0 32px;
@@ -912,11 +878,13 @@ body, html {
 .product-image {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
   object-fit: cover;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.product-card:hover .product-image {
+/*.product-card:hover */
+.product-image:hover {
   transform: scale(1.1);
 }
 
