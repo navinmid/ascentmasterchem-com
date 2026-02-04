@@ -167,8 +167,12 @@ html {
 }
 
 @media (max-width: 480px) {
+  .VPNavBar .title {
+    font-size: 18px !important;
+  }
+  
   .VPNavBar .nav-phone {
-    right: 80px;
+    right: 60px;
   }
   
   .nav-phone-number {
