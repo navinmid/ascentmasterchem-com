@@ -1194,6 +1194,7 @@ body, html {
 @media (max-width: 640px) {
   .hero-title {
     font-size: 2rem;
+    line-height: 2.5rem !important;
   }
   
   .hero-description {

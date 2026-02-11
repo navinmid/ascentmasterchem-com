@@ -360,3 +360,10 @@ html.top .VPNavBarMenuLink.active {
 /* .VPContent .container {
   margin-top: 80px !important
 } */
+ header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+ }
