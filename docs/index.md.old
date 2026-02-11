@@ -19,21 +19,134 @@ const products = [
     image: "products/admixtures.jpeg",
     items: [
       {
-        name: 'Concrete Admixtures',
-        description: 'Concrete admixtures improve strength, durability, workability, and setting time.',
-        image: "products/admixtures.jpeg"
+        name: 'Plasticizer',
+        description: 'Plasticizers are concrete admixtures designed to improve the workability of concrete without increasing water content. By reducing the water requirement, they help achieve better consistency while enhancing the overall strength, durability, and surface finish of the concrete.',
+        icon: '💧'
       },
       {
-        name: 'Tile Adhesive',
-        description: 'Tile adhesive ensures strong bonding, durability, and long-lasting tile installation.',
-        image: "products/tile-adhesive.jpeg",
+        name: 'Super Plasticizer',
+        description: 'Super plasticizers are high-performance concrete admixtures that greatly increase workability while significantly reducing the water–cement ratio. This results in high-strength, dense, and durable concrete with excellent flow and finish, making them ideal for high-performance and reinforced concrete applications.',
+        icon: '💧⚡'
       },
       {
-        name: 'Bricks Admixures',
-        description: 'ABrick admixtures enhance strength, durability, water resistance, and overall quality.',
-        image: "home/admixtures.jpeg",
+        name: 'Accelerator',
+        description: 'Accelerators are concrete admixtures that speed up the setting and hardening process of concrete. By promoting early strength gain, they help reduce construction time and allow for faster formwork removal and quicker project completion.',
+        icon: '⚡'
+      },
+      {
+        name: 'Retarder',
+        description: 'Retarders are concrete admixtures used to delay the setting time of concrete, preventing premature stiffening during placement and finishing. They are especially suitable for hot weather conditions and long pours, ensuring better workability and uniform concrete quality.',
+        icon: '⏳'
+      },
+      {
+        name: 'Integral Waterproofing Admixture',
+        description: 'Integral waterproofing admixtures reduce the permeability of concrete, significantly improving its resistance to water penetration. By enhancing durability and providing protection against corrosion, they help extend the service life of concrete structures exposed to moisture.',
+        icon: '🛡️💧'
+      },
+      {
+        name: 'Curing Compound',
+        description: 'Curing compounds are applied to fresh concrete to retain moisture and ensure proper cement hydration. By preventing rapid moisture loss, they help reduce surface cracks and improve the strength and durability of the finished concrete.',
+        icon: '🛠️💧'
       }
     ]
+  },
+  {
+    name: "Tile Adhesives",
+    caption: "High-performance adhesives for every tile type.",
+    icon: "🔗",
+    image: "products/tile-adhesive.jpeg",
+    items: [
+      {
+        name: 'MASTER CHEM 1008 (Interior – Ceramic & Vitrified)',
+        description: 'MASTER CHEM 1008 is a high-quality tile adhesive designed for interior applications, perfect for ceramic and vitrified tiles. It ensures strong adhesion, smooth application, and a durable, long-lasting finish for walls and floors.',
+        icon: '🟦'
+      },
+      {
+        name: '⁠MASTER CHEM 1017 (Wall & Floor – Residential / Commercial)',
+        description: 'MASTER CHEM 1017 is a versatile tile adhesive suitable for both wall and floor installations in residential and commercial spaces. It provides excellent bonding, easy workability, and reliable performance under daily use.',
+        icon: '🟦🟦'
+      },
+      {
+        name: 'MASTER CHEM 1026 (Large Format Tiles & Stone)',
+        description: 'MASTER CHEM 1026 is specially formulated for large-format tiles and natural stone installations. It offers superior grip, prevents slippage, and ensures a uniform, professional finish for demanding projects.',
+        icon: '🪨🟦'
+      },
+      {
+        name: ' ⁠MASTER CHEM 1035 (Exterior, Wet Areas & Heavy Duty)',
+        description: 'MASTER CHEM 1035 is a robust, heavy-duty tile adhesive suitable for exterior surfaces, wet areas, and high-traffic zones. It delivers excellent water resistance, strong bonding, and long-term durability in challenging conditions.',
+        icon: '☔🟦'
+      }
+    ]
+  },
+  {
+    name: "Cementitious Grout",
+    caption: "Durable grout for every tile application.",
+    icon: "➖",
+    image: "products/grouts.jpeg",
+    items: [
+      {
+        name: 'MASTER CHEM 1008 (Unsanded)',
+        description: 'MASTER CHEM 1008 is an unsanded cementitious grout ideal for narrow joints up to 3mm. It provides smooth filling, excellent adhesion, and a neat, uniform finish for interior tile installations.',
+        icon: '🟦✏️'
+      },
+      {
+        name: '⁠MASTER CHEM 1017 (Standard Grade)',
+        description: 'MASTER CHEM 1017 is a standard-grade cementitious grout suitable for general-purpose tile joints. It ensures strong bonding, consistent color, and durability for both wall and floor applications.',
+        icon: '🟦🟦'
+      },
+      {
+        name: 'MASTER CHEM 1026 (Polymer Modified)',
+        description: 'MASTER CHEM 1026 is a polymer-modified cementitious grout that enhances flexibility, adhesion, and water resistance. It is ideal for areas exposed to moisture or slight movement, providing a durable and long-lasting finish.',
+        icon: '🟦💧'
+      },
+      {
+        name: ' ⁠MASTER CHEM 1035 (Heavy Duty)',
+        description: 'MASTER CHEM 1035 is a heavy-duty cementitious grout designed for high-traffic areas and demanding installations. It delivers exceptional strength, crack resistance, and long-term performance under tough conditions.',
+        icon: '🟦🪨'
+      }
+    ]
+  },
+  {
+    name: "Epoxy Based Waterproof Tile Joint Filler",
+    caption: "MASTER CHEM 1044 is an epoxy-based waterproof tile joint filler designed for high-performance applications. It provides exceptional chemical resistance, durability, and long-lasting protection for tile joints in wet or heavy-duty areas.",
+    icon: "💧",
+    image: "products/epoxy.jpeg",
+    items: []
+  },
+  {
+    name: "Acid Based Tile Cleaner",
+    caption: "MASTER CHEM 1053 is a powerful acid-based tile cleaner formulated to remove tough stains, cement residues, and mineral deposits. It restores the natural shine and cleanliness of tiles while being suitable for heavy-duty cleaning.",
+    icon: "🧽",
+    image: "products/tile-cleaner.jpeg",
+    items: []
+  },
+  {
+    name: "Fly Ash Bricks",
+    caption: "Fly ash bricks are eco-friendly building blocks made from fly ash, cement, and water. They offer high strength, uniform size, and excellent durability, while reducing environmental impact by utilizing industrial by-products. Ideal for walls, partitions, and structural applications, these bricks provide superior insulation, low water absorption, and long-term stability.",
+    icon: "🧱",
+    image: "products/fly-ash.jpeg",
+    items: []
+  },
+  {
+    name: "Paver Blocks",
+    caption: "Paver blocks are durable, high-strength concrete blocks used for constructing driveways, walkways, patios, and parking areas. They offer excellent load-bearing capacity, slip resistance, and aesthetic appeal. Available in various shapes, sizes, and colors, paver blocks provide a long-lasting, low-maintenance, and visually appealing paving solution.",
+    icon: "🧱",
+    image: "products/paver-block.jpeg",
+    items: []
+  },
+  {
+    name: "Solid Bricks",
+    caption: "Solid bricks are high-strength, dense building blocks made from clay or concrete, widely used in walls, foundations, and structural applications. They provide excellent load-bearing capacity, durability, and thermal insulation, ensuring long-lasting and stable construction.",
+    icon: "🧱",
+    image: "products/solid-bricks.jpeg",
+    items: []
+  },
+  {
+    name: "Interlocking Bricks",
+    caption: "Interlocking bricks are specially designed concrete or clay blocks that fit together without the need for mortar. They provide fast, stable, and cost-effective construction while maintaining high strength, durability, and load-bearing capacity. Ideal for walls, pavements, and landscaping, interlocking bricks reduce construction time and material usage.",
+    icon: "🔗",
+    image: "products/inter-locking.jpeg",
+    items: []
   }
 ]
 
@@ -67,9 +180,6 @@ const testimonials = [
 
 <!-- Hero Section -->
 <div class="hero-section">
-  <video autoplay muted loop playsinline class="hero-video">
-    <source src="https://cdn.pixabay.com/video/2024/03/31/206315_tiny.mp4" type="video/mp4">
-  </video>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>
@@ -84,15 +194,15 @@ const testimonials = [
     <p class="hero-description">
      Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 100+ high-performance products across multiple industrial segments.
     </p>
-    <!-- <div class="hero-actions">
+    <div class="hero-actions">
       <a href="about.html" class="btn-primary">
         <span>Learn more</span>
       </a>
-      <a href="#products" class="btn-primary">
+      <!-- <a href="#products" class="btn-primary">
         <span>Explore Products</span>
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3L13 8L8 13M13 8H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-    </div> -->
+      </a> -->
+    </div>
     <div class="hero-stats">
       <div class="stat-item">
         <div class="stat-number">100+</div>
@@ -110,16 +220,6 @@ const testimonials = [
       </div>
     </div>
   </div>
-</div>
-
-<div style="padding-top: 40px">
-<h1 style="font-size: clamp(2rem, 4vw, 2rem) !important;">We are Ascent Master Chem</h1>
-<p>
-Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 100+ high-performance products across multiple industrial segments.
-</p>
-<a href="about.html">
-        <span>Learn more</span>
-      </a>
 </div>
 
 <!-- Features Section -->
@@ -151,13 +251,13 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
 <!-- Products Section -->
 <div id="products" class="products-section">
   <div class="section-header">
-    <h2 class="section-title">Our Offerings for the Construction Industry</h2>
+    <h2 class="section-title">Our Products</h2>
     <p class="section-subtitle">Comprehensive range of chemical solutions for every home improvement need</p>
   </div>
 
   <!-- Products -->
   <div v-for="product in products" :key="product.name" class="product-category">
-    <!-- <div class="category-header">
+    <div class="category-header">
       <div class="category-icon-wrapper">
         <span class="category-icon">{{ product.icon }}</span>
       </div>
@@ -168,21 +268,19 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
     </div>
     <div class="product-image-wrapper">
         <img :src="product.image" :alt="product.name" class="product-image" loading="lazy" />
-    </div> -->
+    </div>
     <div class="products-grid">
-      <div v-for="item in product.items" :key="item.name" class="product-card" :style="{ backgroundImage: 'url(' + item.image + ')' }">
-        <!-- <div class="product-header">
+      <div v-for="item in product.items" :key="item.name" class="product-card">
+        <div class="product-header">
           <div class="product-icon">{{ item.icon }}</div>
           <span class="product-badge">Popular</span>
-        </div> -->
-        <div class="product-content">
-          <p>{{ item.description }}</p>
-          <h4>{{ item.name }}</h4>
         </div>
+        <h4>{{ item.name }}</h4>
+        <p>{{ item.description }}</p>
         <!-- <div class="product-image-wrapper">
           <img :src="item.image" :alt="item.name" class="product-image" loading="lazy" />
         </div> -->
-        <!-- <a href="#contact" class="product-link">Learn More →</a> -->
+        <a href="#contact" class="product-link">Learn More →</a>
       </div>
     </div>
   </div>
@@ -225,21 +323,21 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
   <div class="contact-container">
     <div class="contact-info">
       <div class="contact-item">
-        <!-- <span class="contact-icon">📍</span> -->
+        <span class="contact-icon">📍</span>
         <div>
           <h4>Address</h4>
           <p>SF No. 685/3, Ayyampalayam,<br/>Thottakuruchi village,<br/>Punjai Pugalur,<br/>Karur, Tamilnadu - 639113</p>
         </div>
       </div>
       <div class="contact-item">
-        <!-- <span class="contact-icon">📞</span> -->
+        <span class="contact-icon">📞</span>
         <div>
           <h4>Phone</h4>
           <p><a href="tel:+919943621234">+91 99436 21234</a></p>
         </div>
       </div>
       <div class="contact-item">
-        <!-- <span class="contact-icon">✉️</span> -->
+        <span class="contact-icon">✉️</span>
         <div>
           <h4>Email</h4>
           <p><a href="mailto:sales@ascentmasterchem.com">sales@ascentmasterchem.com</a></p>
@@ -273,7 +371,6 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
   --accent-color: #ff6b35;
   --text-dark: #1a1a2e;
   --text-light: #6b7280;
-  --text-white: #ffffff;
   --bg-light: #f8fafc;
   --bg-white: #ffffff;
   --bg-gradient: linear-gradient(135deg, #014ca8 0%, #3d8bfd 100%);
@@ -288,7 +385,6 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
   --secondary-color: #7bb3ff;
   --text-dark: #f8fafc;
   --text-light: #9ca3af;
-  --text-white: #ffffff;
   --bg-light: #1e293b;
   --bg-white: #0f172a;
   --bg-gradient: linear-gradient(135deg, #3d8bfd 0%, #7bb3ff 100%);
@@ -310,7 +406,7 @@ body, html {
   position: relative;
   padding: 0;
   background: var(--bg-gradient);
-  /* text-align: center; */
+  text-align: center;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
   margin-bottom: 0;
@@ -320,16 +416,10 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.hero-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
+  background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
 }
 
 .hero-background {
@@ -339,7 +429,7 @@ body, html {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.60);
+  background: rgba(1, 76, 168, 0.85);
 }
 
 .hero-circle {
@@ -383,7 +473,7 @@ body, html {
   z-index: 1;
   max-width: 900px;
   margin: 0 auto;
-  /* text-align: center; */
+  text-align: center;
   padding: 120px 24px;
   width: 100%;
 }
@@ -419,14 +509,12 @@ body, html {
 }
 
 .hero-title {
-  font-size: clamp(2rem, 5vw, 3.5rem) !important;
-  line-height: 4rem !important;
+  font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 800;
   color: white;
   line-height: 1.2;
   margin-bottom: 24px;
   animation: fadeInUp 0.8s ease-out 0.2s both;
-  font-family: "Syne", sans-serif;
 }
 
 .hero-subtitle-text {
@@ -461,7 +549,6 @@ body, html {
   margin-left: auto;
   margin-right: auto;
   animation: fadeInUp 0.8s ease-out 0.6s both;
-  font-family: "Syne", sans-serif;
 }
 
 .hero-actions {
@@ -570,7 +657,7 @@ body, html {
 
 /* Features Section */
 .features-section {
-  padding: 50px 24px;
+  padding: 100px 24px;
   background: var(--bg-white);
   margin: 0 -24px;
 }
@@ -618,7 +705,6 @@ body, html {
 }
 
 .feature-icon {
-  filter: grayscale(70%);
   font-size: 3.5rem;
   margin-bottom: 20px;
   display: inline-block;
@@ -644,7 +730,7 @@ body, html {
 
 /* Products Section */
 .products-section {
-  padding: 48px 24px;
+  padding: 100px 24px;
   background: var(--bg-light);
   margin: 0 -24px;
 }
@@ -655,12 +741,10 @@ body, html {
 }
 
 .section-title {
-  font-size: clamp(2rem, 4vw, 2.75rem) !important;
+  font-size: clamp(2rem, 4vw, 2.75rem);
   font-weight: 800;
-  border-top: none !important;
-  padding: 24px !important;
   color: var(--text-dark);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   position: relative;
   display: inline-block;
 }
@@ -742,23 +826,11 @@ body, html {
   border-radius: 20px;
   box-shadow: var(--card-shadow);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  /* border: 2px solid transparent; */
+  border: 2px solid transparent;
   position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  min-height: 400px;
-  object-fit: cover;
-}
-.product-card .product-content {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.60);
-  display: flex;
-  flex-direction: column-reverse;
 }
 
 .product-card::before {
@@ -841,16 +913,16 @@ body, html {
 }
 
 .product-card h4 {
-  font-size: 1.6rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  color: var(--text-white);
+  color: var(--text-dark);
   margin-bottom: 12px;
   line-height: 1.4;
   padding: 0 32px;
 }
 
 .product-card p {
-  color: var(--text-white);
+  color: var(--text-light);
   line-height: 1.7;
   font-size: 0.95rem;
   margin-bottom: 20px;
@@ -1010,8 +1082,8 @@ body, html {
 
 /* Contact Section */
 .contact-section {
-  padding: 50px 24px;
-  /* background: var(--bg-light); */
+  padding: 100px 24px;
+  background: var(--bg-light);
   margin: 0 -24px;
 }
 
@@ -1096,7 +1168,7 @@ body, html {
 
 /* CTA Section */
 .cta-section {
-  padding: 50px 24px;
+  padding: 100px 24px;
   background: var(--bg-gradient);
   margin: 0 -24px -24px;
   text-align: center;

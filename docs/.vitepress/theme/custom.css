@@ -1,6 +1,10 @@
 /* Custom theme overrides */
 
 :root {
+  --vp-font-family-base: 'Syne', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  
+  --vp-c-text-1: #000000;
   --vp-c-brand-1: #014ca8;
   --vp-c-brand-2: #013a7d;
   --vp-c-brand-3: #3d8bfd;
@@ -11,6 +15,7 @@
   
   --vp-home-hero-image-background-image: linear-gradient(135deg, #014ca8 0%, #00a86b 100%);
   --vp-home-hero-image-filter: blur(44px);
+  --vp-nav-height: 80px;
 }
 
 .dark {
@@ -51,18 +56,29 @@ html {
 
 /* Navigation enhancements */
 .VPNavBar {
+  background: transparent !important;
+  backdrop-filter: none;
+  border-bottom: none;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+/* Navbar background appears on scroll */
+.VPNavBar.has-sidebar,
+.VPNavBar:not(.top) {
   background: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(20px) saturate(180%);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  /* position: fixed !important;
-  top: 0 !important;
-  width: 100% !important;
-  z-index: 1000 !important; */
 }
 
 .dark .VPNavBar {
+  background: transparent !important;
+  border-bottom: none;
+}
+
+.dark .VPNavBar.has-sidebar,
+.dark .VPNavBar:not(.top) {
   background: rgba(30, 30, 30, 0.95) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -71,10 +87,30 @@ html {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+/* White text when navbar is transparent (at top) */
+html.top .VPNavBar .title,
+html.top .VPNavBar .VPNavBarMenuLink,
+html.top .VPNavBar .VPLink {
+  color: white !important;
+}
+
+html.top .VPNavBar .VPSocialLink {
+  color: white !important;
+}
+
+html.top .VPNavBar .VPSocialLink:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
 /* Nav bar items hover effect */
 .VPNavBarMenuLink:hover,
 .VPNavBarMenuLink.active {
   color: var(--vp-c-brand-1) !important;
+}
+
+html.top .VPNavBarMenuLink:hover,
+html.top .VPNavBarMenuLink.active {
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 /* Phone number in navbar */
@@ -104,8 +140,8 @@ html {
 }
 
 .nav-phone-link:hover {
-  background: rgba(1, 76, 168, 0.1);
-  color: var(--vp-c-brand-1) !important;
+  /* background: rgba(1, 76, 168, 0.1); */
+  /* color: var(--vp-c-brand-1) !important; */
   transform: translateY(-2px);
   box-shadow: none;
 }
@@ -121,8 +157,8 @@ html {
 }
 
 .dark .nav-phone-link:hover {
-  color: var(--vp-c-brand-1) !important;
-  background: rgba(61, 139, 253, 0.15);
+  /* color: var(--vp-c-brand-1) !important; */
+  /* background: rgba(61, 139, 253, 0.15); */
   box-shadow: none;
 }
 
@@ -202,6 +238,11 @@ html {
 .dark .VPFooter .message,
 .dark .VPFooter .copyright {
   color: #ffffff !important;
+}
+
+/* Remove top padding from content */
+.VPContent {
+  padding-top: 0 !important;
 }
 
 /* Link hover effects */
@@ -316,3 +357,6 @@ html {
   }
 }
 
+/* .VPContent .container {
+  margin-top: 80px !important
+} */

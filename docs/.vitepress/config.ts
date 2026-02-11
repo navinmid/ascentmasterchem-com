@@ -6,6 +6,10 @@ export default defineConfig({
   lang: 'en-US',
   
   head: [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap' }],
     ['meta', { name: 'theme-color', content: '#014ca8' }],
     ['meta', { name: 'author', content: 'Ascent Master Chem' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
@@ -23,6 +27,8 @@ export default defineConfig({
   // For GitHub Pages deployment
   base: '/ascentmasterchem-com/',
 
+  appearance: false, // Disable dark mode
+
   themeConfig: {
     logo: '/logo.png',
     siteTitle: 'Ascent Master Chem',
@@ -30,7 +36,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Products', link: '/#products' },
-      { text: 'Testimonials', link: '/#testimonials' },
+      // { text: 'Testimonials', link: '/#testimonials' },
       { text: 'Contact', link: '/#contact' }
     ],
 
