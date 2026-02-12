@@ -60,7 +60,7 @@ description: Delay concrete setting for better workability and quality.
     <ul>
       <li>Extends setting time by 1-4 hours depending on dosage</li>
       <li>Maintains concrete workability in high temperatures</li>
-      <li><li>Reduces water evaporation effects</li>
+      <li>Reduces water evaporation effects</li>
       <li>Prevents cold joints in continuous pours</li>
       <li>Controls heat of hydration</li>
       <li>Compatible with all cement types</li>
