@@ -4,6 +4,37 @@ title: Bricks Admixtures - Ascent Master Chem
 description: Enhance strength, durability, water resistance, and overall quality.
 ---
 
+<script setup>
+import { ref } from 'vue'
+
+const products = [
+  {
+    name: "Fly Ash Bricks",
+    description: "Fly ash bricks are eco-friendly building blocks made from fly ash, cement, and water. They offer high strength, uniform size, and excellent durability, while reducing environmental impact by utilizing industrial by-products. Ideal for walls, partitions, and structural applications, these bricks provide superior insulation, low water absorption, and long-term stability.",
+    image: 'https://images.unsplash.com/photo-1601058642989-77416ebfae62?w=800&auto=format&fit=crop',
+    link: 'fly-ash-bricks.html'
+  },
+  {
+    name: "Paver Blocks",
+    description: "Paver blocks are durable, high-strength concrete blocks used for constructing driveways, walkways, patios, and parking areas. They offer excellent load-bearing capacity, slip resistance, and aesthetic appeal. Available in various shapes, sizes, and colors, paver blocks provide a long-lasting, low-maintenance, and visually appealing paving solution.",
+    image: 'https://images.unsplash.com/photo-1611267254323-4db7b39c732c?w=800&auto=format&fit=crop',
+    link: 'paver-blocks.html'
+  },
+  {
+    name: "Solid Bricks",
+    description: "Solid bricks are high-strength, dense building blocks made from clay or concrete, widely used in walls, foundations, and structural applications. They provide excellent load-bearing capacity, durability, and thermal insulation, ensuring long-lasting and stable construction.",
+    image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&auto=format&fit=crop',
+    link: 'solid-bricks.html'
+  },
+  {
+    name: "Interlocking Bricks",
+    description: "Interlocking bricks are specially designed concrete or clay blocks that fit together without the need for mortar. They provide fast, stable, and cost-effective construction while maintaining high strength, durability, and load-bearing capacity. Ideal for walls, pavements, and landscaping, interlocking bricks reduce construction time and material usage.",
+    image: 'https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&auto=format&fit=crop',
+    link: 'interlocking-bricks.html'
+  }
+]
+</script>
+
 <!-- Hero Section -->
 <div class="hero-section-detail">
   <div class="hero-image" style="background-image: url('home/admixtures.jpeg')"></div>
@@ -23,6 +54,7 @@ description: Enhance strength, durability, water resistance, and overall quality
 
 <!-- Content Section -->
 <div class="detail-content">
+  <!--
   <div class="content-section">
     <h2>Product Overview</h2>
     <p>
@@ -31,7 +63,6 @@ description: Enhance strength, durability, water resistance, and overall quality
       and better suited for modern construction demands.
     </p>
   </div>
-
   <div class="content-section">
     <h2>Key Features</h2>
     <ul>
@@ -43,7 +74,6 @@ description: Enhance strength, durability, water resistance, and overall quality
       <li><strong>Enhanced Appearance:</strong> Produces bricks with better surface finish and color uniformity</li>
     </ul>
   </div>
-
   <div class="content-section">
     <h2>Applications</h2>
     <ul>
@@ -55,7 +85,6 @@ description: Enhance strength, durability, water resistance, and overall quality
       <li>Decorative and facing brick production</li>
     </ul>
   </div>
-
   <div class="content-section">
     <h2>Benefits</h2>
     <ul>
@@ -66,7 +95,6 @@ description: Enhance strength, durability, water resistance, and overall quality
       <li>Complies with modern building standards and regulations</li>
     </ul>
   </div>
-
   <div class="content-section">
     <h2>Technical Specifications</h2>
     <p>
@@ -74,6 +102,20 @@ description: Enhance strength, durability, water resistance, and overall quality
       manufacturing processes. The dosage and application method can be customized based on your specific requirements. 
       Contact our technical team for detailed product specifications, dosage recommendations, and application guidelines.
     </p>
+  </div>
+  -->
+  <!-- Products Section -->
+  <div class="products-section-detail">
+    <h2>Our Brick Products</h2>
+    <p class="section-subtitle">Explore our comprehensive range of high-quality bricks designed for various construction applications</p>
+    <div class="products-grid">
+      <a v-for="product in products" :key="product.name" :href="product.link" class="product-card-detail" :style="'background-image: url(' + product.image + ')'">
+        <div class="product-content">
+          <p>{{ product.description }}</p>
+          <h4>{{ product.name }}</h4>
+        </div>
+      </a>
+    </div>
   </div>
 
   <div class="cta-box">
@@ -335,6 +377,140 @@ description: Enhance strength, durability, water resistance, and overall quality
   box-shadow: 0 8px 24px rgba(1, 76, 168, 0.4);
 }
 
+/* Products Section */
+.products-section-detail {
+  margin: 60px 0;
+}
+
+.products-section-detail h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  text-align: center;
+  border-top: none !important;
+  padding-top: 0 !important;
+}
+
+.products-section-detail .section-subtitle {
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--text-light);
+  margin-bottom: 40px;
+}
+
+.products-section-detail .products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.product-card-detail {
+  background: var(--bg-white);
+  padding: 0;
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.product-card-detail::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  background-image: inherit;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 0;
+}
+
+.product-card-detail:hover::after {
+  transform: scale(1.08);
+}
+
+.product-card-detail .product-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.60);
+  display: flex;
+  flex-direction: column-reverse;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+.product-card-detail::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg-gradient);
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+.product-card-detail:hover::before {
+  opacity: 0.15;
+}
+
+.product-card-detail:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 30px 60px -15px rgba(1, 76, 168, 0.4);
+}
+
+.product-card-detail:hover .product-content {
+  background: rgba(0, 0, 0, 0.50);
+}
+
+.product-card-detail h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-white);
+  margin-bottom: 12px;
+  line-height: 1.4;
+  padding: 0 24px;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.3s ease;
+}
+
+.product-card-detail:hover h4 {
+  transform: translateY(-4px);
+}
+
+.product-card-detail p {
+  color: var(--text-white);
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+  padding: 0 24px;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.05s, opacity 0.3s ease;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-card-detail:hover p {
+  transform: translateY(-4px);
+  opacity: 1;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-section-detail {
@@ -344,6 +520,10 @@ description: Enhance strength, durability, water resistance, and overall quality
   
   .detail-content {
     margin: 40px auto;
+  }
+  
+  .products-section-detail .products-grid {
+    grid-template-columns: 1fr;
   }
   
   .content-section {

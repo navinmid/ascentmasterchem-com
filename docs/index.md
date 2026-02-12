@@ -85,7 +85,7 @@ const testimonials = [
       <span class="hero-subtitle-text">for Your Home</span>
     </h1>
     <p class="hero-description">
-     Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 100+ high-performance products across multiple industrial segments.
+    Ascent Masterchem is a sister concern of Ascent Chemicals, founded in 2009 with 16+ years of experience, delivering 100+ high-performance products across diverse industries.
     </p>
     <!-- <div class="hero-actions">
       <a href="about.html" class="btn-primary">
@@ -744,7 +744,7 @@ body, html {
   padding: 0;
   border-radius: 20px;
   box-shadow: var(--card-shadow);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   /* border: 2px solid transparent; */
   position: relative;
   overflow: hidden;
@@ -752,6 +752,25 @@ body, html {
   flex-direction: column;
   min-height: 400px;
   object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.product-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  background-image: inherit;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 0;
+}
+.product-card:hover::after {
+  transform: scale(1.08);
 }
 .product-card .product-content {
   position: absolute;
@@ -762,6 +781,7 @@ body, html {
   background: rgba(0, 0, 0, 0.60);
   display: flex;
   flex-direction: column-reverse;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .product-card::before {
@@ -773,18 +793,22 @@ body, html {
   bottom: 0;
   background: var(--bg-gradient);
   opacity: 0;
-  transition: opacity 0.4s;
-  z-index: 0;
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
 }
 
 .product-card:hover::before {
-  opacity: 0.03;
+  opacity: 0.15;
 }
 
 .product-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 30px 60px -15px rgba(1, 76, 168, 0.4);
   border-color: var(--primary-color);
+}
+
+.product-card:hover .product-content {
+  background: rgba(0, 0, 0, 0.50);
 }
 
 .product-card > * {
@@ -850,6 +874,11 @@ body, html {
   margin-bottom: 12px;
   line-height: 1.4;
   padding: 0 32px;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.3s ease;
+}
+
+.product-card:hover h4 {
+  transform: translateY(-4px);
 }
 
 .product-card p {
@@ -858,6 +887,12 @@ body, html {
   font-size: 0.95rem;
   margin-bottom: 20px;
   padding: 0 32px;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.05s, opacity 0.3s ease;
+}
+
+.product-card:hover p {
+  transform: translateY(-4px);
+  opacity: 1;
 }
 
 .product-link {

@@ -4,6 +4,49 @@ title: Concrete Admixtures - Ascent Master Chem
 description: Smart admixtures for stronger, longer-lasting concrete.
 ---
 
+<script setup>
+import { ref } from 'vue'
+
+const products = [
+  {
+    name: 'Plasticizer',
+    description: 'Plasticizers are concrete admixtures designed to improve the workability of concrete without increasing water content.',
+    image: 'https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80',
+    link: 'plasticizer.html'
+  },
+  {
+    name: 'Super Plasticizer',
+    description: 'Super plasticizers are high-performance concrete admixtures that greatly increase workability while significantly reducing the water–cement ratio.',
+    image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&q=80',
+    link: 'super-plasticizer.html'
+  },
+  {
+    name: 'Accelerator',
+    description: 'Accelerators are concrete admixtures that speed up the setting and hardening process of concrete.',
+    image: 'https://images.unsplash.com/photo-1590496794807-9d49c2f2c0e6?w=800&q=80',
+    link: 'accelerator.html'
+  },
+  {
+    name: 'Retarder',
+    description: 'Retarders are concrete admixtures used to delay the setting time of concrete, preventing premature stiffening during placement and finishing.',
+    image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80',
+    link: 'retarder.html'
+  },
+  {
+    name: 'Integral Waterproofing Admixture',
+    description: 'Integral waterproofing admixtures reduce the permeability of concrete, significantly improving its resistance to water penetration.',
+    image: 'https://images.unsplash.com/photo-1563106004-07f8a8c52382?w=800&q=80',
+    link: 'integral-waterproofing-admixture.html'
+  },
+  {
+    name: 'Curing Compound',
+    description: 'Curing compounds are applied to fresh concrete to retain moisture and ensure proper cement hydration.',
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80',
+    link: 'curing-compound.html'
+  }
+]
+</script>
+
 <!-- Hero Section -->
 <div class="hero-section-detail">
   <div class="hero-image" style="background-image: url('products/admixtures.jpeg')"></div>
@@ -23,6 +66,7 @@ description: Smart admixtures for stronger, longer-lasting concrete.
 
 <!-- Content Section -->
 <div class="detail-content">
+  <!--
   <div class="content-section">
     <h2>Product Overview</h2>
     <p>
@@ -31,7 +75,6 @@ description: Smart admixtures for stronger, longer-lasting concrete.
       projects more efficient and reliable.
     </p>
   </div>
-
   <div class="content-section">
     <h2>Key Features</h2>
     <ul>
@@ -42,7 +85,6 @@ description: Smart admixtures for stronger, longer-lasting concrete.
       <li><strong>Reduced Water Content:</strong> Achieves desired consistency with less water, improving overall quality</li>
     </ul>
   </div>
-
   <div class="content-section">
     <h2>Applications</h2>
     <ul>
@@ -53,13 +95,26 @@ description: Smart admixtures for stronger, longer-lasting concrete.
       <li>Ready-mix concrete</li>
     </ul>
   </div>
-
   <div class="content-section">
     <h2>Technical Specifications</h2>
     <p>
       Our concrete admixtures are manufactured to the highest quality standards and comply with relevant industry specifications. 
       Contact our technical team for detailed specifications and dosage recommendations for your specific application.
     </p>
+  </div>
+  -->
+  <!-- Products Section -->
+  <div class="products-section-detail">
+    <h2>Our Concrete Admixture Products</h2>
+    <p class="section-subtitle">Explore our comprehensive range of concrete admixtures</p>
+    <div class="products-grid">
+      <a v-for="product in products" :key="product.name" :href="product.link" class="product-card-detail" :style="'background-image: url(' + product.image + ')'">
+        <div class="product-content">
+          <p>{{ product.description }}</p>
+          <h4>{{ product.name }}</h4>
+        </div>
+      </a>
+    </div>
   </div>
 
   <div class="cta-box">
@@ -321,6 +376,143 @@ description: Smart admixtures for stronger, longer-lasting concrete.
   box-shadow: 0 8px 24px rgba(1, 76, 168, 0.4);
 }
 
+/* Products Section in Detail Page */
+.products-section-detail {
+  margin: 60px 0;
+  padding: 48px 0;
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.products-section-detail h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  text-align: center;
+  border-top: none !important;
+  padding-top: 0 !important;
+}
+
+.products-section-detail .section-subtitle {
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--text-light);
+  margin-bottom: 40px;
+}
+
+.products-section-detail .products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.product-card-detail {
+  background: var(--bg-white);
+  padding: 0;
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.product-card-detail::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  background-image: inherit;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 0;
+}
+
+.product-card-detail:hover::after {
+  transform: scale(1.08);
+}
+
+.product-card-detail .product-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.60);
+  display: flex;
+  flex-direction: column-reverse;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+.product-card-detail::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg-gradient);
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+.product-card-detail:hover::before {
+  opacity: 0.15;
+}
+
+.product-card-detail:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 30px 60px -15px rgba(1, 76, 168, 0.4);
+}
+
+.product-card-detail:hover .product-content {
+  background: rgba(0, 0, 0, 0.50);
+}
+
+.product-card-detail h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-white);
+  margin-bottom: 12px;
+  line-height: 1.4;
+  padding: 0 24px;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.3s ease;
+}
+
+.product-card-detail:hover h4 {
+  transform: translateY(-4px);
+}
+
+.product-card-detail p {
+  color: var(--text-white);
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+  padding: 0 24px;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.05s, opacity 0.3s ease;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-card-detail:hover p {
+  transform: translateY(-4px);
+  opacity: 1;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-section-detail {
@@ -338,6 +530,10 @@ description: Smart admixtures for stronger, longer-lasting concrete.
   
   .cta-box {
     padding: 32px 24px;
+  }
+  
+  .products-section-detail .products-grid {
+    grid-template-columns: 1fr;
   }
 }
 </style>

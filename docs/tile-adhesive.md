@@ -4,6 +4,73 @@ title: Tile Adhesive - Ascent Master Chem
 description: Strong bonding, durability, and long-lasting tile installation.
 ---
 
+<script setup>
+import { ref } from 'vue'
+
+const products = [
+  {
+    name: 'MASTER CHEM 1008 (Interior – Ceramic & Vitrified)',
+    description: 'MASTER CHEM 1008 is a high-quality tile adhesive designed for interior applications, perfect for ceramic and vitrified tiles. It ensures strong adhesion, smooth application, and a durable, long-lasting finish for walls and floors.',
+    image: 'https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=800&auto=format&fit=crop',
+    link: 'master-chem-1008-adhesive.html'
+  },
+  {
+    name: 'MASTER CHEM 1017 (Wall & Floor – Residential / Commercial)',
+    description: 'MASTER CHEM 1017 is a versatile tile adhesive suitable for both wall and floor installations in residential and commercial spaces. It provides excellent bonding, easy workability, and reliable performance under daily use.',
+    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop',
+    link: 'master-chem-1017-adhesive.html'
+  },
+  {
+    name: 'MASTER CHEM 1026 (Large Format Tiles & Stone)',
+    description: 'MASTER CHEM 1026 is specially formulated for large-format tiles and natural stone installations. It offers superior grip, prevents slippage, and ensures a uniform, professional finish for demanding projects.',
+    image: 'https://images.unsplash.com/photo-1600585152915-d208bec867a1?w=800&auto=format&fit=crop',
+    link: 'master-chem-1026-adhesive.html'
+  },
+  {
+    name: 'MASTER CHEM 1035 (Exterior, Wet Areas & Heavy Duty)',
+    description: 'MASTER CHEM 1035 is a robust, heavy-duty tile adhesive suitable for exterior surfaces, wet areas, and high-traffic zones. It delivers excellent water resistance, strong bonding, and long-term durability in challenging conditions.',
+    image: 'https://images.unsplash.com/photo-1604709177225-055f99402ea3?w=800&auto=format&fit=crop',
+    link: 'master-chem-1035-adhesive.html'
+  },
+  {
+    name: 'MASTER CHEM 1008 (Unsanded)',
+    description: 'MASTER CHEM 1008 is an unsanded cementitious grout ideal for narrow joints up to 3mm. It provides smooth filling, excellent adhesion, and a neat, uniform finish for interior tile installations.',
+    image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&auto=format&fit=crop',
+    link: 'master-chem-1008-grout.html'
+  },
+  {
+    name: 'MASTER CHEM 1017 (Standard Grade)',
+    description: 'MASTER CHEM 1017 is a standard-grade cementitious grout suitable for general-purpose tile joints. It ensures strong bonding, consistent color, and durability for both wall and floor applications.',
+    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop',
+    link: 'master-chem-1017-grout.html'
+  },
+  {
+    name: 'MASTER CHEM 1026 (Polymer Modified)',
+    description: 'MASTER CHEM 1026 is a polymer-modified cementitious grout that enhances flexibility, adhesion, and water resistance. It is ideal for areas exposed to moisture or slight movement, providing a durable and long-lasting finish.',
+    image: 'https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=800&auto=format&fit=crop',
+    link: 'master-chem-1026-grout.html'
+  },
+  {
+    name: 'MASTER CHEM 1035 (Heavy Duty)',
+    description: 'MASTER CHEM 1035 is a heavy-duty cementitious grout designed for high-traffic areas and demanding installations. It delivers exceptional strength, crack resistance, and long-term performance under tough conditions.',
+    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&auto=format&fit=crop',
+    link: 'master-chem-1035-grout.html'
+  },
+  {
+    name: 'MASTER CHEM 1044 – Epoxy Based Waterproof Tile Joint Filler',
+    description: 'MASTER CHEM 1044 is an epoxy-based waterproof tile joint filler designed for high-performance applications. It provides exceptional chemical resistance, durability, and long-lasting protection for tile joints in wet or heavy-duty areas.',
+    image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&auto=format&fit=crop',
+    link: 'master-chem-1044-epoxy.html'
+  },
+  {
+    name: 'MASTER CHEM 1053 – Acid Based Tile Cleaner',
+    description: 'MASTER CHEM 1053 is a powerful acid-based tile cleaner formulated to remove tough stains, cement residues, and mineral deposits. It restores the natural shine and cleanliness of tiles while being suitable for heavy-duty cleaning.',
+    image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&auto=format&fit=crop',
+    link: 'master-chem-1053-cleaner.html'
+  }
+]
+</script>
+
 <!-- Hero Section -->
 <div class="hero-section-detail">
   <div class="hero-image" style="background-image: url('products/tile-adhesive.jpeg')"></div>
@@ -23,6 +90,7 @@ description: Strong bonding, durability, and long-lasting tile installation.
 
 <!-- Content Section -->
 <div class="detail-content">
+  <!--
   <div class="content-section">
     <h2>Product Overview</h2>
     <p>
@@ -31,7 +99,6 @@ description: Strong bonding, durability, and long-lasting tile installation.
       long-lasting installation that stands the test of time.
     </p>
   </div>
-
   <div class="content-section">
     <h2>Key Features</h2>
     <ul>
@@ -43,7 +110,6 @@ description: Strong bonding, durability, and long-lasting tile installation.
       <li><strong>Fast Setting:</strong> Reduces installation time and speeds up project completion</li>
     </ul>
   </div>
-
   <div class="content-section">
     <h2>Applications</h2>
     <ul>
@@ -55,7 +121,6 @@ description: Strong bonding, durability, and long-lasting tile installation.
       <li>Suitable for ceramic, porcelain, and stone tiles</li>
     </ul>
   </div>
-
   <div class="content-section">
     <h2>Technical Specifications</h2>
     <p>
@@ -63,6 +128,20 @@ description: Strong bonding, durability, and long-lasting tile installation.
       The product is available in different grades to suit specific project requirements. Contact our technical support 
       team for detailed specifications, coverage rates, and application guidelines.
     </p>
+  </div>
+  -->
+  <!-- Products Section -->
+  <div class="products-section-detail">
+    <h2>Our Tile Adhesive & Grout Products</h2>
+    <p class="section-subtitle">Explore our comprehensive range of tile adhesives and cementitious grouts designed for various applications</p>
+    <div class="products-grid">
+      <a v-for="product in products" :key="product.name" :href="product.link" class="product-card-detail" :style="'background-image: url(' + product.image + ')'">
+        <div class="product-content">
+          <p>{{ product.description }}</p>
+          <h4>{{ product.name }}</h4>
+        </div>
+      </a>
+    </div>
   </div>
 
   <div class="cta-box">
@@ -324,6 +403,140 @@ description: Strong bonding, durability, and long-lasting tile installation.
   box-shadow: 0 8px 24px rgba(1, 76, 168, 0.4);
 }
 
+/* Products Section */
+.products-section-detail {
+  margin: 60px 0;
+}
+
+.products-section-detail h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  text-align: center;
+  border-top: none !important;
+  padding-top: 0 !important;
+}
+
+.products-section-detail .section-subtitle {
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--text-light);
+  margin-bottom: 40px;
+}
+
+.products-section-detail .products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.product-card-detail {
+  background: var(--bg-white);
+  padding: 0;
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.product-card-detail::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  background-image: inherit;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 0;
+}
+
+.product-card-detail:hover::after {
+  transform: scale(1.08);
+}
+
+.product-card-detail .product-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.60);
+  display: flex;
+  flex-direction: column-reverse;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+.product-card-detail::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg-gradient);
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+.product-card-detail:hover::before {
+  opacity: 0.15;
+}
+
+.product-card-detail:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 30px 60px -15px rgba(1, 76, 168, 0.4);
+}
+
+.product-card-detail:hover .product-content {
+  background: rgba(0, 0, 0, 0.50);
+}
+
+.product-card-detail h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-white);
+  margin-bottom: 12px;
+  line-height: 1.4;
+  padding: 0 24px;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.3s ease;
+}
+
+.product-card-detail:hover h4 {
+  transform: translateY(-4px);
+}
+
+.product-card-detail p {
+  color: var(--text-white);
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+  padding: 0 24px;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.05s, opacity 0.3s ease;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-card-detail:hover p {
+  transform: translateY(-4px);
+  opacity: 1;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-section-detail {
@@ -333,6 +546,10 @@ description: Strong bonding, durability, and long-lasting tile installation.
   
   .detail-content {
     margin: 40px auto;
+  }
+  
+  .products-section-detail .products-grid {
+    grid-template-columns: 1fr;
   }
   
   .content-section {
