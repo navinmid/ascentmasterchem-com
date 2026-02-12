@@ -1,22 +1,22 @@
 ---
 layout: home
-title: About Us - Ascent Master Chem
-description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16 years of industry experience.
+title: Concrete Admixtures - Ascent Master Chem
+description: Smart admixtures for stronger, longer-lasting concrete.
 ---
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://cdn.pixabay.com/photo/2017/08/10/08/47/construction-2620391_1280.jpg')"></div>
+  <div class="hero-image" style="background-image: url('products/admixtures.jpeg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">About Us</span>
+      <span class="gradient-text">Concrete Admixtures</span>
     </h1>
     <p class="hero-description">
-      Building excellence in construction chemicals since 2009
+      Smart admixtures for stronger, longer-lasting concrete.
     </p>
   </div>
 </div>
@@ -24,58 +24,47 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
 <!-- Content Section -->
 <div class="detail-content">
   <div class="content-section">
-    <h2>Our Story</h2>
+    <h2>Product Overview</h2>
     <p>
-      Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 100+ high-performance products across multiple industrial segments.
-    </p>
-    <p>
-      Ascent Chemicals has earned a solid reputation in the fields of Paper Chemicals, Textile Chemicals, Water Treatment Chemicals, Fertilizer Chemicals, and Home Care Products. Continuous research, consistent quality, and customer-centric solutions have been the driving forces behind the company's sustained growth and long-term trust in the market.
-    </p>
-  </div>
-
-  <div class="content-section">
-    <h2>Our Expansion into Construction Chemicals</h2>
-    <p>
-      Leveraging this extensive multi-industry experience, Ascent Masterchem marks the strategic expansion of the group into the Construction Chemicals segment. With a portfolio of 100+ innovative construction chemical solutions, Ascent Masterchem is committed to enhancing structural strength, durability, and performance in modern construction practices.
+      Our concrete admixtures are specially formulated to enhance the performance of concrete in various applications. 
+      These advanced chemical solutions improve strength, durability, workability, and setting time, making your concrete 
+      projects more efficient and reliable.
     </p>
   </div>
 
   <div class="content-section">
-    <h2>Our Product Range</h2>
-    <p>
-      Our product range includes Concrete Admixtures, Waterproofing Systems, Tile Adhesives & Grouts, Bonding Agents, Repair & Protection Compounds, Flooring Solutions, and Specialty Construction Chemicals. Each product is developed using advanced formulations, high-quality raw materials, and stringent quality control standards to meet evolving construction demands.
-    </p>
+    <h2>Key Features</h2>
+    <ul>
+      <li><strong>Enhanced Strength:</strong> Significantly improves the compressive and tensile strength of concrete</li>
+      <li><strong>Improved Durability:</strong> Increases resistance to weathering, chemical attack, and wear</li>
+      <li><strong>Better Workability:</strong> Makes concrete easier to mix, place, and finish</li>
+      <li><strong>Controlled Setting Time:</strong> Allows for precise control over the setting and hardening process</li>
+      <li><strong>Reduced Water Content:</strong> Achieves desired consistency with less water, improving overall quality</li>
+    </ul>
   </div>
 
   <div class="content-section">
-    <h2>Our Mission</h2>
-    <p>
-      Driven by quality, reliability, and technological advancement, Ascent Masterchem aims to be a trusted long-term partner for builders, contractors, engineers, and infrastructure developers. Our focus remains on delivering efficient, durable, and cost-effective chemical solutions that add measurable value to every construction project.
-    </p>
+    <h2>Applications</h2>
+    <ul>
+      <li>Residential and commercial construction</li>
+      <li>Infrastructure projects (bridges, roads, tunnels)</li>
+      <li>Industrial flooring</li>
+      <li>Pre-cast concrete products</li>
+      <li>Ready-mix concrete</li>
+    </ul>
   </div>
 
-  <div class="stats-section">
-    <div class="stat-card">
-      <div class="stat-number">16+</div>
-      <div class="stat-label">Years of Experience</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">100+</div>
-      <div class="stat-label">Products Developed</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">10K+</div>
-      <div class="stat-label">Happy Customers</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">5+</div>
-      <div class="stat-label">Industry Segments</div>
-    </div>
+  <div class="content-section">
+    <h2>Technical Specifications</h2>
+    <p>
+      Our concrete admixtures are manufactured to the highest quality standards and comply with relevant industry specifications. 
+      Contact our technical team for detailed specifications and dosage recommendations for your specific application.
+    </p>
   </div>
 
   <div class="cta-box">
-    <h3>Ready to Work With Us?</h3>
-    <p>Get in touch with our team to discuss how we can support your construction projects with our premium chemical solutions.</p>
+    <h3>Need More Information?</h3>
+    <p>Contact our expert team to learn more about our concrete admixtures and find the perfect solution for your project.</p>
     <a href="index.html#contact" class="btn-primary">Contact Us</a>
   </div>
 </div>
@@ -265,43 +254,6 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   font-weight: bold;
 }
 
-/* Stats Section */
-.stats-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 24px;
-  margin: 60px 0;
-}
-
-.stat-card {
-  background: var(--bg-light);
-  padding: 32px 24px;
-  border-radius: 16px;
-  text-align: center;
-  border: 2px solid var(--border-color);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.stat-card:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--card-shadow-hover);
-  border-color: var(--primary-color);
-}
-
-.stat-number {
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: var(--primary-color);
-  margin-bottom: 8px;
-  line-height: 1;
-}
-
-.stat-label {
-  font-size: 1rem;
-  color: var(--text-light);
-  font-weight: 600;
-}
-
 /* CTA Box */
 .cta-box {
   background: var(--bg-light);
@@ -382,15 +334,6 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   
   .content-section {
     margin-bottom: 36px;
-  }
-  
-  .stats-section {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 16px;
-  }
-  
-  .stat-number {
-    font-size: 2rem;
   }
   
   .cta-box {

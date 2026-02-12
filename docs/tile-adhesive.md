@@ -1,22 +1,22 @@
 ---
 layout: home
-title: About Us - Ascent Master Chem
-description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16 years of industry experience.
+title: Tile Adhesive - Ascent Master Chem
+description: Strong bonding, durability, and long-lasting tile installation.
 ---
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://cdn.pixabay.com/photo/2017/08/10/08/47/construction-2620391_1280.jpg')"></div>
+  <div class="hero-image" style="background-image: url('products/tile-adhesive.jpeg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">About Us</span>
+      <span class="gradient-text">Tile Adhesive</span>
     </h1>
     <p class="hero-description">
-      Building excellence in construction chemicals since 2009
+      Ensures strong bonding, durability, and long-lasting tile installation.
     </p>
   </div>
 </div>
@@ -24,58 +24,50 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
 <!-- Content Section -->
 <div class="detail-content">
   <div class="content-section">
-    <h2>Our Story</h2>
+    <h2>Product Overview</h2>
     <p>
-      Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 100+ high-performance products across multiple industrial segments.
-    </p>
-    <p>
-      Ascent Chemicals has earned a solid reputation in the fields of Paper Chemicals, Textile Chemicals, Water Treatment Chemicals, Fertilizer Chemicals, and Home Care Products. Continuous research, consistent quality, and customer-centric solutions have been the driving forces behind the company's sustained growth and long-term trust in the market.
-    </p>
-  </div>
-
-  <div class="content-section">
-    <h2>Our Expansion into Construction Chemicals</h2>
-    <p>
-      Leveraging this extensive multi-industry experience, Ascent Masterchem marks the strategic expansion of the group into the Construction Chemicals segment. With a portfolio of 100+ innovative construction chemical solutions, Ascent Masterchem is committed to enhancing structural strength, durability, and performance in modern construction practices.
+      Our premium tile adhesive is engineered to provide superior bonding strength for all types of tiles. 
+      Whether you're working with ceramic, porcelain, or natural stone, our adhesive ensures a durable and 
+      long-lasting installation that stands the test of time.
     </p>
   </div>
 
   <div class="content-section">
-    <h2>Our Product Range</h2>
-    <p>
-      Our product range includes Concrete Admixtures, Waterproofing Systems, Tile Adhesives & Grouts, Bonding Agents, Repair & Protection Compounds, Flooring Solutions, and Specialty Construction Chemicals. Each product is developed using advanced formulations, high-quality raw materials, and stringent quality control standards to meet evolving construction demands.
-    </p>
+    <h2>Key Features</h2>
+    <ul>
+      <li><strong>Superior Bonding Strength:</strong> Creates an exceptionally strong bond between tiles and substrate</li>
+      <li><strong>Excellent Durability:</strong> Withstands heavy traffic and environmental stresses</li>
+      <li><strong>Water Resistant:</strong> Perfect for wet areas like bathrooms and kitchens</li>
+      <li><strong>Easy Application:</strong> Smooth consistency for effortless spreading and setting</li>
+      <li><strong>Flexible Formula:</strong> Accommodates minor substrate movements without cracking</li>
+      <li><strong>Fast Setting:</strong> Reduces installation time and speeds up project completion</li>
+    </ul>
   </div>
 
   <div class="content-section">
-    <h2>Our Mission</h2>
-    <p>
-      Driven by quality, reliability, and technological advancement, Ascent Masterchem aims to be a trusted long-term partner for builders, contractors, engineers, and infrastructure developers. Our focus remains on delivering efficient, durable, and cost-effective chemical solutions that add measurable value to every construction project.
-    </p>
+    <h2>Applications</h2>
+    <ul>
+      <li>Interior and exterior wall tiling</li>
+      <li>Floor tile installation</li>
+      <li>Bathroom and kitchen areas</li>
+      <li>Swimming pools and water features</li>
+      <li>Commercial and residential projects</li>
+      <li>Suitable for ceramic, porcelain, and stone tiles</li>
+    </ul>
   </div>
 
-  <div class="stats-section">
-    <div class="stat-card">
-      <div class="stat-number">16+</div>
-      <div class="stat-label">Years of Experience</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">100+</div>
-      <div class="stat-label">Products Developed</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">10K+</div>
-      <div class="stat-label">Happy Customers</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">5+</div>
-      <div class="stat-label">Industry Segments</div>
-    </div>
+  <div class="content-section">
+    <h2>Technical Specifications</h2>
+    <p>
+      Our tile adhesive meets international quality standards and is suitable for a wide range of tiling applications. 
+      The product is available in different grades to suit specific project requirements. Contact our technical support 
+      team for detailed specifications, coverage rates, and application guidelines.
+    </p>
   </div>
 
   <div class="cta-box">
-    <h3>Ready to Work With Us?</h3>
-    <p>Get in touch with our team to discuss how we can support your construction projects with our premium chemical solutions.</p>
+    <h3>Need More Information?</h3>
+    <p>Contact our expert team to learn more about our tile adhesive and find the perfect solution for your tiling project.</p>
     <a href="index.html#contact" class="btn-primary">Contact Us</a>
   </div>
 </div>
@@ -265,43 +257,6 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   font-weight: bold;
 }
 
-/* Stats Section */
-.stats-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 24px;
-  margin: 60px 0;
-}
-
-.stat-card {
-  background: var(--bg-light);
-  padding: 32px 24px;
-  border-radius: 16px;
-  text-align: center;
-  border: 2px solid var(--border-color);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.stat-card:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--card-shadow-hover);
-  border-color: var(--primary-color);
-}
-
-.stat-number {
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: var(--primary-color);
-  margin-bottom: 8px;
-  line-height: 1;
-}
-
-.stat-label {
-  font-size: 1rem;
-  color: var(--text-light);
-  font-weight: 600;
-}
-
 /* CTA Box */
 .cta-box {
   background: var(--bg-light);
@@ -382,15 +337,6 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   
   .content-section {
     margin-bottom: 36px;
-  }
-  
-  .stats-section {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 16px;
-  }
-  
-  .stat-number {
-    font-size: 2rem;
   }
   
   .cta-box {

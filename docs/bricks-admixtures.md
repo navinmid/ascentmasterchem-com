@@ -1,22 +1,22 @@
 ---
 layout: home
-title: About Us - Ascent Master Chem
-description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16 years of industry experience.
+title: Bricks Admixtures - Ascent Master Chem
+description: Enhance strength, durability, water resistance, and overall quality.
 ---
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://cdn.pixabay.com/photo/2017/08/10/08/47/construction-2620391_1280.jpg')"></div>
+  <div class="hero-image" style="background-image: url('home/admixtures.jpeg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">About Us</span>
+      <span class="gradient-text">Bricks Admixtures</span>
     </h1>
     <p class="hero-description">
-      Building excellence in construction chemicals since 2009
+      Enhance strength, durability, water resistance, and overall quality.
     </p>
   </div>
 </div>
@@ -24,58 +24,61 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
 <!-- Content Section -->
 <div class="detail-content">
   <div class="content-section">
-    <h2>Our Story</h2>
+    <h2>Product Overview</h2>
     <p>
-      Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 100+ high-performance products across multiple industrial segments.
-    </p>
-    <p>
-      Ascent Chemicals has earned a solid reputation in the fields of Paper Chemicals, Textile Chemicals, Water Treatment Chemicals, Fertilizer Chemicals, and Home Care Products. Continuous research, consistent quality, and customer-centric solutions have been the driving forces behind the company's sustained growth and long-term trust in the market.
-    </p>
-  </div>
-
-  <div class="content-section">
-    <h2>Our Expansion into Construction Chemicals</h2>
-    <p>
-      Leveraging this extensive multi-industry experience, Ascent Masterchem marks the strategic expansion of the group into the Construction Chemicals segment. With a portfolio of 100+ innovative construction chemical solutions, Ascent Masterchem is committed to enhancing structural strength, durability, and performance in modern construction practices.
+      Our specialized brick admixtures are designed to enhance the performance and quality of brick manufacturing. 
+      These advanced chemical formulations improve the physical properties of bricks, making them stronger, more durable, 
+      and better suited for modern construction demands.
     </p>
   </div>
 
   <div class="content-section">
-    <h2>Our Product Range</h2>
-    <p>
-      Our product range includes Concrete Admixtures, Waterproofing Systems, Tile Adhesives & Grouts, Bonding Agents, Repair & Protection Compounds, Flooring Solutions, and Specialty Construction Chemicals. Each product is developed using advanced formulations, high-quality raw materials, and stringent quality control standards to meet evolving construction demands.
-    </p>
+    <h2>Key Features</h2>
+    <ul>
+      <li><strong>Increased Strength:</strong> Significantly enhances compressive and tensile strength of bricks</li>
+      <li><strong>Superior Durability:</strong> Improves resistance to weathering and environmental degradation</li>
+      <li><strong>Water Resistance:</strong> Reduces water absorption and prevents moisture-related damage</li>
+      <li><strong>Better Workability:</strong> Improves the plasticity and moldability of clay mixtures</li>
+      <li><strong>Reduced Efflorescence:</strong> Minimizes salt deposits on brick surfaces</li>
+      <li><strong>Enhanced Appearance:</strong> Produces bricks with better surface finish and color uniformity</li>
+    </ul>
   </div>
 
   <div class="content-section">
-    <h2>Our Mission</h2>
-    <p>
-      Driven by quality, reliability, and technological advancement, Ascent Masterchem aims to be a trusted long-term partner for builders, contractors, engineers, and infrastructure developers. Our focus remains on delivering efficient, durable, and cost-effective chemical solutions that add measurable value to every construction project.
-    </p>
+    <h2>Applications</h2>
+    <ul>
+      <li>Clay brick manufacturing</li>
+      <li>Fly ash brick production</li>
+      <li>Concrete brick manufacturing</li>
+      <li>Hollow and solid brick production</li>
+      <li>Paver block manufacturing</li>
+      <li>Decorative and facing brick production</li>
+    </ul>
   </div>
 
-  <div class="stats-section">
-    <div class="stat-card">
-      <div class="stat-number">16+</div>
-      <div class="stat-label">Years of Experience</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">100+</div>
-      <div class="stat-label">Products Developed</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">10K+</div>
-      <div class="stat-label">Happy Customers</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">5+</div>
-      <div class="stat-label">Industry Segments</div>
-    </div>
+  <div class="content-section">
+    <h2>Benefits</h2>
+    <ul>
+      <li>Reduces production costs by optimizing raw material usage</li>
+      <li>Improves production efficiency and reduces cycle time</li>
+      <li>Enhances product quality and consistency</li>
+      <li>Increases market value of finished bricks</li>
+      <li>Complies with modern building standards and regulations</li>
+    </ul>
+  </div>
+
+  <div class="content-section">
+    <h2>Technical Specifications</h2>
+    <p>
+      Our brick admixtures are formulated using advanced chemical technology and are compatible with various brick 
+      manufacturing processes. The dosage and application method can be customized based on your specific requirements. 
+      Contact our technical team for detailed product specifications, dosage recommendations, and application guidelines.
+    </p>
   </div>
 
   <div class="cta-box">
-    <h3>Ready to Work With Us?</h3>
-    <p>Get in touch with our team to discuss how we can support your construction projects with our premium chemical solutions.</p>
+    <h3>Need More Information?</h3>
+    <p>Contact our expert team to learn more about our brick admixtures and find the perfect solution for your manufacturing needs.</p>
     <a href="index.html#contact" class="btn-primary">Contact Us</a>
   </div>
 </div>
@@ -265,43 +268,6 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   font-weight: bold;
 }
 
-/* Stats Section */
-.stats-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 24px;
-  margin: 60px 0;
-}
-
-.stat-card {
-  background: var(--bg-light);
-  padding: 32px 24px;
-  border-radius: 16px;
-  text-align: center;
-  border: 2px solid var(--border-color);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.stat-card:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--card-shadow-hover);
-  border-color: var(--primary-color);
-}
-
-.stat-number {
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: var(--primary-color);
-  margin-bottom: 8px;
-  line-height: 1;
-}
-
-.stat-label {
-  font-size: 1rem;
-  color: var(--text-light);
-  font-weight: 600;
-}
-
 /* CTA Box */
 .cta-box {
   background: var(--bg-light);
@@ -382,15 +348,6 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   
   .content-section {
     margin-bottom: 36px;
-  }
-  
-  .stats-section {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 16px;
-  }
-  
-  .stat-number {
-    font-size: 2rem;
   }
   
   .cta-box {

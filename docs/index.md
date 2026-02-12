@@ -21,17 +21,20 @@ const products = [
       {
         name: 'Concrete Admixtures',
         description: 'Concrete admixtures improve strength, durability, workability, and setting time.',
-        image: "products/admixtures.jpeg"
+        image: "products/admixtures.jpeg",
+        link: "concrete-admixtures.html"
       },
       {
         name: 'Tile Adhesive',
         description: 'Tile adhesive ensures strong bonding, durability, and long-lasting tile installation.',
         image: "products/tile-adhesive.jpeg",
+        link: "tile-adhesive.html"
       },
       {
         name: 'Bricks Admixures',
         description: 'ABrick admixtures enhance strength, durability, water resistance, and overall quality.',
         image: "home/admixtures.jpeg",
+        link: "bricks-admixtures.html"
       }
     ]
   }
@@ -170,7 +173,7 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
         <img :src="product.image" :alt="product.name" class="product-image" loading="lazy" />
     </div> -->
     <div class="products-grid">
-      <div v-for="item in product.items" :key="item.name" class="product-card" :style="{ backgroundImage: 'url(' + item.image + ')' }">
+      <a v-for="item in product.items" :key="item.name" :href="item.link" class="product-card" :style="{ backgroundImage: 'url(' + item.image + ')' }">
         <!-- <div class="product-header">
           <div class="product-icon">{{ item.icon }}</div>
           <span class="product-badge">Popular</span>
@@ -183,7 +186,7 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
           <img :src="item.image" :alt="item.name" class="product-image" loading="lazy" />
         </div> -->
         <!-- <a href="#contact" class="product-link">Learn More →</a> -->
-      </div>
+      </a>
     </div>
   </div>
 </div>
