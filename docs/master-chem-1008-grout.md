@@ -125,7 +125,7 @@ description: Unsanded cementitious grout ideal for narrow joints up to 3mm.
   margin-bottom: 0;
   width: 100vw;
   overflow: hidden;
-  height: 25vh;
+  height: 30vh;
   min-height: 250px;
   display: flex;
   align-items: center;

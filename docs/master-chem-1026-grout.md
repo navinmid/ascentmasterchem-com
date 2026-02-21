@@ -125,7 +125,7 @@ description: Polymer-modified cementitious grout that enhances flexibility, adhe
   margin-bottom: 0;
   width: 100vw;
   overflow: hidden;
-  height: 25vh;
+  height: 30vh;
   min-height: 250px;
   display: flex;
   align-items: center;

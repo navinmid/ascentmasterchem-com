@@ -164,13 +164,16 @@ html.top .VPNavBarMenuLink.active {
 
 /* Logo and Title Size Customization */
 .VPNavBar .logo {
-  width: 48px !important;
-  height: 48px !important;
+  /* width: 48px !important; */
+  height: 76px !important;
 }
 
 .VPNavBar .title {
   font-size: 22px !important;
   font-weight: 700 !important;
+}
+.VPNavBar .title span {
+  display: none !important;
 }
 
 /* Mobile view - show phone prominently */
@@ -367,3 +370,24 @@ html.top .VPNavBarMenuLink.active {
     width: 100%;
     z-index: 1000;
  }
+
+/* Detail page hero: ensure content clears the fixed navbar */
+.hero-section-detail {
+  min-height: 300px !important;
+}
+
+.hero-section-detail .hero-content {
+  padding-top: calc(var(--vp-nav-height) + 40px) !important;
+  padding-bottom: 60px !important;
+}
+
+@media (max-width: 768px) {
+  .hero-section-detail {
+    min-height: 280px !important;
+  }
+
+  .hero-section-detail .hero-content {
+    padding-top: calc(var(--vp-nav-height) + 24px) !important;
+    padding-bottom: 40px !important;
+  }
+}

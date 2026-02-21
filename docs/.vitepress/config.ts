@@ -30,7 +30,7 @@ export default defineConfig({
   appearance: false, // Disable dark mode
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/logo.png',
     siteTitle: 'Ascent Master Chem',
     
     nav: [

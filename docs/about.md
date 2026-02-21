@@ -126,7 +126,7 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   margin-bottom: 0;
   width: 100vw;
   overflow: hidden;
-  height: 25vh;
+  height: 30vh;
   min-height: 250px;
   display: flex;
   align-items: center;
