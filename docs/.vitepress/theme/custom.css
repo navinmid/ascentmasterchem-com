@@ -166,6 +166,15 @@ html.top .VPNavBarMenuLink.active {
 .VPNavBar .logo {
   /* width: 48px !important; */
   height: 76px !important;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 10px;
+  padding: 4px;
+  box-shadow: 0 2px 12px rgba(255, 255, 255, 0.6), 0 1px 4px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease;
+}
+
+.VPNavBar .logo:hover {
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.8), 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .VPNavBar .title {
