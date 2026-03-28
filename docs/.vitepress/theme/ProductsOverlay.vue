@@ -92,11 +92,9 @@ onUnmounted(() => {
       <div
         v-if="showProductsOverlay"
         class="products-overlay-wrapper"
-        @mouseenter="cancelClose"
-        @mouseleave="scheduleClose()"
       >
         <div class="products-overlay-backdrop" @click="closeProductsOverlay"></div>
-        <div class="products-overlay-panel" @mouseleave.stop>
+        <div class="products-overlay-panel" @mouseleave="scheduleClose" @mouseenter="cancelClose">
           <div class="products-overlay-grid">
             <a
               v-for="item in products.flatMap(p => p.items)"
