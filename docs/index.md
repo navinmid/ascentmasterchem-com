@@ -86,7 +86,7 @@ const testimonials = [
       <span class="hero-subtitle-text">for Your Home</span>
     </h1>
     <p class="hero-description">
-    Ascent Masterchem is a sister concern of Ascent Chemicals, founded in 2009 with 16+ years of experience, delivering 100+ high-performance products across diverse industries.
+    Ascent Masterchem is a sister concern of Ascent Chemicals, founded in 2009 with 16+ years of experience, delivering 500+ high-performance products across diverse industries.
     </p>
     <!-- <div class="hero-actions">
       <a href="about.html" class="btn-primary">
@@ -99,7 +99,7 @@ const testimonials = [
     </div> -->
     <div class="hero-stats">
       <div class="stat-item">
-        <div class="stat-number">100+</div>
+        <div class="stat-number">500+</div>
         <div class="stat-label">Products</div>
       </div>
       <div class="stat-divider"></div>
@@ -240,6 +240,7 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
         <div>
           <h4>Phone</h4>
           <p><a href="tel:+919943621234">+91 99436 21234</a></p>
+          <p><a href="tel:+919865841234">+91 98658 41234</a></p>
         </div>
       </div>
       <div class="contact-item">
