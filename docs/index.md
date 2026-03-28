@@ -66,6 +66,7 @@ const testimonials = [
     rating: 5
   }
 ]
+
 </script>
 
 <!-- Hero Section -->
