@@ -6,7 +6,7 @@ description: Robust, heavy-duty tile adhesive for exterior surfaces, wet areas, 
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1604709177225-055f99402ea3?w=800&auto=format&fit=crop')"></div>
+  <div class="hero-image" style="background-image: url('/hero/photo-1604709177225.jpg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>

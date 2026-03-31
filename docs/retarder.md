@@ -6,7 +6,7 @@ description: Delay concrete setting for better workability and quality.
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80')"></div>
+  <div class="hero-image" style="background-image: url('/hero/photo-1621905252507.jpg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>

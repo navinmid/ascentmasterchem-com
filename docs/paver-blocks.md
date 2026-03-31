@@ -6,7 +6,7 @@ description: Durable, high-strength concrete blocks for driveways, walkways, and
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1611267254323-4db7b39c732c?w=800&auto=format&fit=crop')"></div>
+  <div class="hero-image" style="background-image: url('/hero/photo-1611267254323.jpg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>

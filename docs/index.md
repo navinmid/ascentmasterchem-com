@@ -72,7 +72,7 @@ const testimonials = [
 <!-- Hero Section -->
 <div class="hero-section">
   <video autoplay muted loop playsinline class="hero-video">
-    <source src="https://cdn.pixabay.com/video/2024/03/31/206315_tiny.mp4" type="video/mp4">
+    <source src="/home/206315_tiny.mp4" type="video/mp4">
   </video>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>

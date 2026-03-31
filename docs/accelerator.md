@@ -6,7 +6,7 @@ description: Speed up concrete setting and hardening for faster construction.
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1590496794807-9d49c2f2c0e6?w=800&q=80')"></div>
+  <div class="hero-image" style="background-image: url('/hero/photo-1590496794807.jpg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>

@@ -24,8 +24,7 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
   ],
 
-  // For GitHub Pages deployment
-  base: '/ascentmasterchem-com/',
+  base: '/',
 
   appearance: false, // Disable dark mode
 
@@ -52,6 +51,6 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://yourusername.github.io/ascentmasterchem-com/'
+    hostname: 'https://ascentmasterchem.com/'
   }
 })

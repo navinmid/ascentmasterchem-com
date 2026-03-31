@@ -11,31 +11,31 @@ const products = [
   {
     name: "Dr. Plast 3220 (Fly Ash Bricks)",
     description: "Fly ash bricks are eco-friendly building blocks made from fly ash, cement, and water. They offer high strength, uniform size, and excellent durability, while reducing environmental impact by utilizing industrial by-products. Ideal for walls, partitions, and structural applications, these bricks provide superior insulation, low water absorption, and long-term stability.",
-    image: 'https://images.unsplash.com/photo-1601058642989-77416ebfae62?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1601058642989.jpg',
     link: 'fly-ash-bricks.html'
   },
   {
     name: "Dr. Plast 3330 (Fly Ash Bricks)",
     description: "Dr. Plast 3330 is our premium-grade fly ash brick formulation, engineered for maximum performance. Featuring an advanced high-density composition with enhanced polymer bonding agents, it delivers significantly superior compressive strength, near-zero water absorption, and outstanding thermal and acoustic insulation compared to standard fly ash bricks. Ideal for high-load structural walls, foundations, and demanding construction environments where exceptional durability and resilience are required.",
-    image: 'https://images.unsplash.com/photo-1601058642989-77416ebfae62?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1601058642989.jpg',
     link: 'fly-ash-bricks-3330.html'
   },
   {
     name: "Dr. Plast 3070 (Paver Blocks)",
     description: "Paver blocks are durable, high-strength concrete blocks used for constructing driveways, walkways, patios, and parking areas. They offer excellent load-bearing capacity, slip resistance, and aesthetic appeal. Available in various shapes, sizes, and colors, paver blocks provide a long-lasting, low-maintenance, and visually appealing paving solution.",
-    image: 'https://images.unsplash.com/photo-1611267254323-4db7b39c732c?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1611267254323.jpg',
     link: 'paver-blocks.html'
   },
   {
     name: "Dr. Plast 3240 (Solid Bricks)",
     description: "Solid bricks are high-strength, dense building blocks made from clay or concrete, widely used in walls, foundations, and structural applications. They provide excellent load-bearing capacity, durability, and thermal insulation, ensuring long-lasting and stable construction.",
-    image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1600607687920.jpg',
     link: 'solid-bricks.html'
   },
   {
     name: "Dr. Plast 3270 (Interlocking Bricks)",
     description: "Interlocking bricks are specially designed concrete or clay blocks that fit together without the need for mortar. They provide fast, stable, and cost-effective construction while maintaining high strength, durability, and load-bearing capacity. Ideal for walls, pavements, and landscaping, interlocking bricks reduce construction time and material usage.",
-    image: 'https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1600607687644.jpg',
     link: 'interlocking-bricks.html'
   }
 ]

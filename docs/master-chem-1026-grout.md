@@ -6,7 +6,7 @@ description: Polymer-modified cementitious grout that enhances flexibility, adhe
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=800&auto=format&fit=crop')"></div>
+  <div class="hero-image" style="background-image: url('/hero/photo-1615874959474.jpg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>

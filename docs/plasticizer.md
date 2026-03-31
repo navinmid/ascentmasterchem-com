@@ -6,7 +6,7 @@ description: Improve the workability of concrete without increasing water conten
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80')"></div>
+  <div class="hero-image" style="background-image: url('/hero/photo-1581094271901.jpg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>

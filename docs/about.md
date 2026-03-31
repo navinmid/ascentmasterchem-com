@@ -6,7 +6,7 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://cdn.pixabay.com/photo/2017/08/10/08/47/construction-2620391_1280.jpg')"></div>
+  <div class="hero-image" style="background-image: url('/hero/construction-2620391.jpg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>

@@ -11,73 +11,73 @@ const products = [
   {
     name: 'MASTER CHEM 1008 (Interior – Ceramic & Vitrified)',
     description: 'MASTER CHEM 1008 is a high-quality tile adhesive designed for interior applications, perfect for ceramic and vitrified tiles. It ensures strong adhesion, smooth application, and a durable, long-lasting finish for walls and floors.',
-    image: 'https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1615876234886.jpg',
     link: 'master-chem-1008-adhesive.html'
   },
   {
     name: 'MASTER CHEM 1017 (Wall & Floor – Residential / Commercial)',
     description: 'MASTER CHEM 1017 is a versatile tile adhesive suitable for both wall and floor installations in residential and commercial spaces. It provides excellent bonding, easy workability, and reliable performance under daily use.',
-    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1620916566398.jpg',
     link: 'master-chem-1017-adhesive.html'
   },
   {
     name: 'MASTER CHEM 1026 (Large Format Tiles & Stone)',
     description: 'MASTER CHEM 1026 is specially formulated for large-format tiles and natural stone installations. It offers superior grip, prevents slippage, and ensures a uniform, professional finish for demanding projects.',
-    image: 'https://images.unsplash.com/photo-1600585152915-d208bec867a1?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1600585152915.jpg',
     link: 'master-chem-1026-adhesive.html'
   },
   {
     name: 'MASTER CHEM 1035 (Exterior, Wet Areas & Heavy Duty)',
     description: 'MASTER CHEM 1035 is a robust, heavy-duty tile adhesive suitable for exterior surfaces, wet areas, and high-traffic zones. It delivers excellent water resistance, strong bonding, and long-term durability in challenging conditions.',
-    image: 'https://images.unsplash.com/photo-1604709177225-055f99402ea3?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1604709177225.jpg',
     link: 'master-chem-1035-adhesive.html'
   },
   {
     name: 'MASTER CHEM 1008 (Unsanded)',
     description: 'MASTER CHEM 1008 is an unsanded cementitious grout ideal for narrow joints up to 3mm. It provides smooth filling, excellent adhesion, and a neat, uniform finish for interior tile installations.',
-    image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1581858726788.jpg',
     link: 'master-chem-1008-grout.html'
   },
   {
     name: 'MASTER CHEM 1017 (Standard Grade)',
     description: 'MASTER CHEM 1017 is a standard-grade cementitious grout suitable for general-purpose tile joints. It ensures strong bonding, consistent color, and durability for both wall and floor applications.',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1600607687939.jpg',
     link: 'master-chem-1017-grout.html'
   },
   {
     name: 'MASTER CHEM 1026 (Polymer Modified)',
     description: 'MASTER CHEM 1026 is a polymer-modified cementitious grout that enhances flexibility, adhesion, and water resistance. It is ideal for areas exposed to moisture or slight movement, providing a durable and long-lasting finish.',
-    image: 'https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1615874959474.jpg',
     link: 'master-chem-1026-grout.html'
   },
   {
     name: 'MASTER CHEM 1035 (Heavy Duty)',
     description: 'MASTER CHEM 1035 is a heavy-duty cementitious grout designed for high-traffic areas and demanding installations. It delivers exceptional strength, crack resistance, and long-term performance under tough conditions.',
-    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1616486338812.jpg',
     link: 'master-chem-1035-grout.html'
   },
   {
     name: 'MASTER CHEM 1044 – Epoxy Based Waterproof Tile Joint Filler',
     description: 'MASTER CHEM 1044 is an epoxy-based waterproof tile joint filler designed for high-performance applications. It provides exceptional chemical resistance, durability, and long-lasting protection for tile joints in wet or heavy-duty areas.',
-    image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1581858726788.jpg',
     link: 'master-chem-1044-epoxy.html'
   },
   {
     name: 'MASTER CHEM 1053 – Acid Based Tile Cleaner',
     description: 'MASTER CHEM 1053 is a powerful acid-based tile cleaner formulated to remove tough stains, cement residues, and mineral deposits. It restores the natural shine and cleanliness of tiles while being suitable for heavy-duty cleaning.',
-    image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&auto=format&fit=crop',
+    image: '/hero/photo-1563453392212.jpg',
     link: 'master-chem-1053-cleaner.html'
   },
   {
     name: 'Dr. Plast 3123 (Integral Waterproofing Admixture)',
     description: 'Integral waterproofing admixtures reduce the permeability of concrete, significantly improving its resistance to water penetration.',
-    image: 'https://images.unsplash.com/photo-1563106004-07f8a8c52382?w=800&q=80',
+    image: '/hero/photo-1563106004.jpg',
     link: 'integral-waterproofing-admixture.html'
   },
   {
     name: 'Dr. Plast 3114 (Curing Compound)',
     description: 'Curing compounds are applied to fresh concrete to retain moisture and ensure proper cement hydration.',
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80',
+    image: '/hero/photo-1578662996442.jpg',
     link: 'curing-compound.html'
   }
 ]

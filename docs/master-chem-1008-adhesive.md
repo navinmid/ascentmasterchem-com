@@ -6,7 +6,7 @@ description: High-quality tile adhesive for interior ceramic and vitrified tile 
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=800&auto=format&fit=crop')"></div>
+  <div class="hero-image" style="background-image: url('/hero/photo-1615876234886.jpg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>
