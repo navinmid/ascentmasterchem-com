@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Accelerator - Ascent Master Chem
+title: Dr. Plast 3141 (Accelerator) - Ascent Master Chem
 description: Speed up concrete setting and hardening for faster construction.
 ---
 
@@ -13,7 +13,7 @@ description: Speed up concrete setting and hardening for faster construction.
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">Accelerator</span>
+      <span class="gradient-text">Dr. Plast 3141 (Accelerator)</span>
     </h1>
     <p class="hero-description">
       Speed up setting time for faster project completion

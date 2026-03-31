@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Plasticizer - Ascent Master Chem
+title: Dr. Plast 3170 (Plasticizer) - Ascent Master Chem
 description: Improve the workability of concrete without increasing water content.
 ---
 
@@ -13,7 +13,7 @@ description: Improve the workability of concrete without increasing water conten
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">Plasticizer</span>
+      <span class="gradient-text">Dr. Plast 3170 (Plasticizer)</span>
     </h1>
     <p class="hero-description">
       Improve workability without increasing water content

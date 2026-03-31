@@ -26,7 +26,7 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   <div class="content-section">
     <h2>Our Story</h2>
     <p>
-      Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 100+ high-performance products across multiple industrial segments.
+      Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 500+ high-performance products across multiple industrial segments.
     </p>
     <p>
       Ascent Chemicals has earned a solid reputation in the fields of Paper Chemicals, Textile Chemicals, Water Treatment Chemicals, Fertilizer Chemicals, and Home Care Products. Continuous research, consistent quality, and customer-centric solutions have been the driving forces behind the company's sustained growth and long-term trust in the market.
@@ -36,7 +36,7 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   <div class="content-section">
     <h2>Our Expansion into Construction Chemicals</h2>
     <p>
-      Leveraging this extensive multi-industry experience, Ascent Masterchem marks the strategic expansion of the group into the Construction Chemicals segment. With a portfolio of 100+ innovative construction chemical solutions, Ascent Masterchem is committed to enhancing structural strength, durability, and performance in modern construction practices.
+      Leveraging this extensive multi-industry experience, Ascent Masterchem marks the strategic expansion of the group into the Construction Chemicals segment. With a portfolio of 500+ innovative construction chemical solutions, Ascent Masterchem is committed to enhancing structural strength, durability, and performance in modern construction practices.
     </p>
   </div>
 
@@ -60,7 +60,7 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
       <div class="stat-label">Years of Experience</div>
     </div>
     <div class="stat-card">
-      <div class="stat-number">100+</div>
+      <div class="stat-number">500+</div>
       <div class="stat-label">Products Developed</div>
     </div>
     <div class="stat-card">
@@ -288,7 +288,7 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   border-color: var(--primary-color);
 }
 
-.stat-number {
+.stats-section .stat-number {
   font-size: 2.5rem;
   font-weight: 800;
   color: var(--primary-color);
@@ -296,7 +296,7 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
   line-height: 1;
 }
 
-.stat-label {
+.stats-section .stat-label {
   font-size: 1rem;
   color: var(--text-light);
   font-weight: 600;
@@ -389,7 +389,7 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
     gap: 16px;
   }
   
-  .stat-number {
+  .stats-section .stat-number {
     font-size: 2rem;
   }
   

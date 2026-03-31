@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Curing Compound - Ascent Master Chem
+title: Dr. Plast 3114 (Curing Compound) - Ascent Master Chem
 description: Retain moisture for proper cement hydration and strength.
 ---
 
@@ -13,7 +13,7 @@ description: Retain moisture for proper cement hydration and strength.
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">Curing Compound</span>
+      <span class="gradient-text">Dr. Plast 3114 (Curing Compound)</span>
     </h1>
     <p class="hero-description">
       Optimize concrete curing for maximum strength and durability

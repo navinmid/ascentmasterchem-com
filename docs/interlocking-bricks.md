@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Interlocking Bricks - Ascent Master Chem
+title: Dr. Plast 3270 (Interlocking Bricks) - Ascent Master Chem
 description: Specially designed concrete or clay blocks that fit together without mortar.
 ---
 
@@ -13,7 +13,7 @@ description: Specially designed concrete or clay blocks that fit together withou
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">Interlocking Bricks</span>
+      <span class="gradient-text">Dr. Plast 3270 (Interlocking Bricks)</span>
     </h1>
     <p class="hero-description">
       Fast, stable, and cost-effective mortar-free construction

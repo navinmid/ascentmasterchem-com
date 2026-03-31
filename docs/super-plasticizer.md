@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Super Plasticizer - Ascent Master Chem
+title: Dr. Plast 3150 (Super Plasticizer) - Ascent Master Chem
 description: High-performance admixture for superior workability and strength.
 ---
 
@@ -13,7 +13,7 @@ description: High-performance admixture for superior workability and strength.
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">Super Plasticizer</span>
+      <span class="gradient-text">Dr. Plast 3150 (Super Plasticizer)</span>
     </h1>
     <p class="hero-description">
       High-performance admixture for exceptional concrete performance

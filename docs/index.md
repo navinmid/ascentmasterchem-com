@@ -119,7 +119,7 @@ const testimonials = [
 <div style="padding-top: 40px">
 <h1 style="font-size: clamp(2rem, 4vw, 2rem) !important;">We are Ascent Master Chem</h1>
 <p>
-Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 100+ high-performance products across multiple industrial segments.
+Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 500+ high-performance products across multiple industrial segments.
 </p>
 <a href="about.html">
         <span>Learn more</span>

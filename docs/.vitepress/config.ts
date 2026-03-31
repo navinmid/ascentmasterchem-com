@@ -37,11 +37,12 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Products', link: '/products' },
       // { text: 'Testimonials', link: '/#testimonials' },
+      { text: 'About Us', link: '/about' },
       { text: 'Contact', link: '/#contact' }
     ],
 
     socialLinks: [
-      { icon: 'linkedin', link: '#' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/ascent-masterchem-06b3633bb' },
     ],
 
     footer: {

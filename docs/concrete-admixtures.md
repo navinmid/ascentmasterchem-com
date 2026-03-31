@@ -9,37 +9,37 @@ import { ref } from 'vue'
 
 const products = [
   {
-    name: 'Plasticizer',
+    name: 'Dr. Plast 3170 (Plasticizer)',
     description: 'Plasticizers are concrete admixtures designed to improve the workability of concrete without increasing water content.',
     image: 'https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80',
     link: 'plasticizer.html'
   },
   {
-    name: 'Super Plasticizer',
+    name: 'Dr. Plast 3150 (Super Plasticizer)',
     description: 'Super plasticizers are high-performance concrete admixtures that greatly increase workability while significantly reducing the water–cement ratio.',
     image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&q=80',
     link: 'super-plasticizer.html'
   },
   {
-    name: 'Accelerator',
+    name: 'Dr. Plast 3141 (Accelerator)',
     description: 'Accelerators are concrete admixtures that speed up the setting and hardening process of concrete.',
     image: 'https://images.unsplash.com/photo-1590496794807-9d49c2f2c0e6?w=800&q=80',
     link: 'accelerator.html'
   },
   {
-    name: 'Retarder',
+    name: 'Dr. Plast 3132 (Retarder)',
     description: 'Retarders are concrete admixtures used to delay the setting time of concrete, preventing premature stiffening during placement and finishing.',
     image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80',
     link: 'retarder.html'
   },
   {
-    name: 'Integral Waterproofing Admixture',
+    name: 'Dr. Plast 3123 (Integral Waterproofing Admixture)',
     description: 'Integral waterproofing admixtures reduce the permeability of concrete, significantly improving its resistance to water penetration.',
     image: 'https://images.unsplash.com/photo-1563106004-07f8a8c52382?w=800&q=80',
     link: 'integral-waterproofing-admixture.html'
   },
   {
-    name: 'Curing Compound',
+    name: 'Dr. Plast 3114 (Curing Compound)',
     description: 'Curing compounds are applied to fresh concrete to retain moisture and ensure proper cement hydration.',
     image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80',
     link: 'curing-compound.html'

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Integral Waterproofing Admixture - Ascent Master Chem
+title: Dr. Plast 3123 (Integral Waterproofing Admixture) - Ascent Master Chem
 description: Enhance concrete resistance to water penetration and corrosion.
 ---
 
@@ -13,7 +13,7 @@ description: Enhance concrete resistance to water penetration and corrosion.
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">Integral Waterproofing Admixture</span>
+      <span class="gradient-text">Dr. Plast 3123 (Integral Waterproofing Admixture)</span>
     </h1>
     <p class="hero-description">
       Protect concrete from water penetration and extend service life

@@ -35,6 +35,11 @@ html {
   scroll-padding-top: 80px;
 }
 
+/* Prevent horizontal scrollbar on non-home pages */
+body:not(.home) {
+  overflow-x: hidden;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;

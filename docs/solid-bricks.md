@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Solid Bricks - Ascent Master Chem
+title: Dr. Plast 3240 (Solid Bricks) - Ascent Master Chem
 description: High-strength, dense building blocks for walls, foundations, and structural applications.
 ---
 
@@ -13,7 +13,7 @@ description: High-strength, dense building blocks for walls, foundations, and st
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">Solid Bricks</span>
+      <span class="gradient-text">Dr. Plast 3240 (Solid Bricks)</span>
     </h1>
     <p class="hero-description">
       High-strength building blocks for durable construction

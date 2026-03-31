@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Paver Blocks - Ascent Master Chem
+title: Dr. Plast 3070 (Paver Blocks) - Ascent Master Chem
 description: Durable, high-strength concrete blocks for driveways, walkways, and patios.
 ---
 
@@ -13,7 +13,7 @@ description: Durable, high-strength concrete blocks for driveways, walkways, and
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">Paver Blocks</span>
+      <span class="gradient-text">Dr. Plast 3070 (Paver Blocks)</span>
     </h1>
     <p class="hero-description">
       High-strength paving solution for durability and aesthetics

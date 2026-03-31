@@ -67,6 +67,18 @@ const products = [
     description: 'MASTER CHEM 1053 is a powerful acid-based tile cleaner formulated to remove tough stains, cement residues, and mineral deposits. It restores the natural shine and cleanliness of tiles while being suitable for heavy-duty cleaning.',
     image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&auto=format&fit=crop',
     link: 'master-chem-1053-cleaner.html'
+  },
+  {
+    name: 'Dr. Plast 3123 (Integral Waterproofing Admixture)',
+    description: 'Integral waterproofing admixtures reduce the permeability of concrete, significantly improving its resistance to water penetration.',
+    image: 'https://images.unsplash.com/photo-1563106004-07f8a8c52382?w=800&q=80',
+    link: 'integral-waterproofing-admixture.html'
+  },
+  {
+    name: 'Dr. Plast 3114 (Curing Compound)',
+    description: 'Curing compounds are applied to fresh concrete to retain moisture and ensure proper cement hydration.',
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80',
+    link: 'curing-compound.html'
   }
 ]
 </script>

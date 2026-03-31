@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Retarder - Ascent Master Chem
+title: Dr. Plast 3132 (Retarder) - Ascent Master Chem
 description: Delay concrete setting for better workability and quality.
 ---
 
@@ -13,7 +13,7 @@ description: Delay concrete setting for better workability and quality.
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">Retarder</span>
+      <span class="gradient-text">Dr. Plast 3132 (Retarder)</span>
     </h1>
     <p class="hero-description">
       Control setting time for optimal workability

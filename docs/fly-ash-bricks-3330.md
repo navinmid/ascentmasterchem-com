@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Dr. Plast 3220 (Fly Ash Bricks) - Ascent Master Chem
-description: Eco-friendly building blocks made from fly ash, cement, and water.
+title: Dr. Plast 3330 (Fly Ash Bricks) - Ascent Master Chem
+description: Premium-grade high-density fly ash bricks with superior compressive strength and near-zero water absorption.
 ---
 
 <!-- Hero Section -->
@@ -13,10 +13,10 @@ description: Eco-friendly building blocks made from fly ash, cement, and water.
   </div>
   <div class="hero-content">
     <h1 class="hero-title">
-      <span class="gradient-text">Dr. Plast 3220 (Fly Ash Bricks)</span>
+      <span class="gradient-text">Dr. Plast 3330 (Fly Ash Bricks)</span>
     </h1>
     <p class="hero-description">
-      Eco-friendly building blocks for sustainable construction
+      Premium-grade fly ash bricks engineered for maximum performance
     </p>
   </div>
 </div>
@@ -26,57 +26,57 @@ description: Eco-friendly building blocks made from fly ash, cement, and water.
   <div class="content-section">
     <h2>Product Overview</h2>
     <p>
-      Fly ash bricks are eco-friendly building blocks made from fly ash, cement, and water. They offer high strength, uniform size, and excellent durability, while reducing environmental impact by utilizing industrial by-products. Ideal for walls, partitions, and structural applications, these bricks provide superior insulation, low water absorption, and long-term stability.
+      Dr. Plast 3330 is our premium-grade fly ash brick formulation, engineered for maximum performance. Featuring an advanced high-density composition with enhanced polymer bonding agents, it delivers significantly superior compressive strength, near-zero water absorption, and outstanding thermal and acoustic insulation compared to standard fly ash bricks. Ideal for high-load structural walls, foundations, and demanding construction environments where exceptional durability and resilience are required.
     </p>
   </div>
 
   <div class="content-section">
     <h2>Key Features</h2>
     <ul>
-      <li><strong>Eco-Friendly:</strong> Made from industrial by-products, reducing environmental impact and conserving natural resources</li>
-      <li><strong>High Strength:</strong> Superior compressive strength compared to traditional clay bricks</li>
-      <li><strong>Uniform Size:</strong> Precise dimensions ensure consistent quality and easier construction</li>
-      <li><strong>Low Water Absorption:</strong> Reduced water penetration enhances durability and resistance to weathering</li>
-      <li><strong>Excellent Insulation:</strong> Better thermal and sound insulation properties for comfortable indoor environments</li>
-      <li><strong>Lightweight:</strong> Easier to handle and transport, reducing labor costs and structural load</li>
-      <li><strong>Cost-Effective:</strong> Lower production costs and reduced maintenance requirements</li>
+      <li><strong>Advanced High-Density Composition:</strong> Enhanced polymer bonding agents deliver significantly higher strength than standard fly ash bricks</li>
+      <li><strong>Near-Zero Water Absorption:</strong> Ultra-low moisture penetration for outstanding weather resistance and long-term durability</li>
+      <li><strong>Superior Compressive Strength:</strong> Engineered to withstand high structural loads safely and reliably</li>
+      <li><strong>Outstanding Insulation:</strong> Superior thermal and acoustic insulation for maximum indoor comfort</li>
+      <li><strong>Eco-Friendly:</strong> Utilizes industrial fly ash by-products, reducing environmental footprint</li>
+      <li><strong>Precision Dimensions:</strong> Tight tolerances ensure faster laying, reduced mortar use, and a cleaner finish</li>
+      <li><strong>Fire & Chemical Resistant:</strong> Excellent resistance to fire, efflorescence, and chemical reactions</li>
     </ul>
   </div>
 
   <div class="content-section">
     <h2>Applications</h2>
     <ul>
-      <li>Load-bearing and non-load-bearing walls</li>
-      <li>Interior and exterior partitions</li>
-      <li>Residential and commercial buildings</li>
-      <li>Boundary walls and compound structures</li>
-      <li>Industrial construction projects</li>
-      <li>Multi-story building construction</li>
+      <li>High-load structural and load-bearing walls</li>
+      <li>Foundations and basement construction</li>
+      <li>Multi-story and high-rise building construction</li>
+      <li>Industrial and heavy-duty construction projects</li>
+      <li>Exterior walls in harsh weather environments</li>
+      <li>Boundary walls and compound structures requiring extra strength</li>
     </ul>
   </div>
 
   <div class="content-section">
     <h2>Technical Benefits</h2>
     <ul>
-      <li>High compressive strength of 7.5-10 N/mm²</li>
-      <li>Water absorption less than 10-12%</li>
-      <li>Uniform dimensions with minimal variations</li>
-      <li>Fire resistant with excellent thermal properties</li>
-      <li>No efflorescence or chemical reactions</li>
-      <li>Meets IS 12894 standards for quality assurance</li>
+      <li>High compressive strength of 12.5–15 N/mm² (vs. 7.5–10 N/mm² for standard grade)</li>
+      <li>Water absorption less than 5% (vs. 10–12% for standard grade)</li>
+      <li>Enhanced polymer bonding for improved flexural strength</li>
+      <li>Fire resistant with superior thermal insulation properties</li>
+      <li>Zero efflorescence with long-term chemical stability</li>
+      <li>Exceeds IS 12894 standards for premium quality assurance</li>
     </ul>
   </div>
 
   <div class="content-section">
     <h2>Characteristics</h2>
     <p>
-      Fly ash bricks are manufactured through a controlled process that ensures consistent quality and performance. Their smooth finish reduces plaster requirements, while their low density minimizes dead load on structures. The bricks cure naturally and gain strength over time, providing long-lasting and reliable construction solutions. Available in various sizes to meet different project requirements.
+      Dr. Plast 3330 fly ash bricks are manufactured through a precision-controlled high-pressure process that produces a denser, stronger brick than conventional formulations. The advanced polymer additives fill micro-pores within the matrix, drastically reducing water ingress and improving overall structural integrity. Their smooth, consistent surface minimises plaster requirements and speeds up construction, while their enhanced density makes them the preferred choice for projects demanding performance beyond standard specifications.
     </p>
   </div>
 
   <div class="cta-box">
     <h3>Need More Information?</h3>
-    <p>Contact our expert team to learn more about fly ash bricks and get technical support for your project.</p>
+    <p>Contact our expert team to learn more about Dr. Plast 3330 Fly Ash Bricks and get technical support for your project.</p>
     <a href="index.html#contact" class="btn-primary">Contact Us</a>
   </div>
 </div>
