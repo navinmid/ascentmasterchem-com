@@ -1,18 +1,12 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 import { h } from 'vue'
-import { useData } from 'vitepress'
 import { onMounted, onUnmounted } from 'vue'
 import ProductsOverlay from './ProductsOverlay.vue'
-import ComingSoonLayout from './ComingSoonLayout.vue'
 
 export default {
   extends: DefaultTheme,
   Layout() {
-    const { frontmatter } = useData()
-    if (frontmatter.value.layout === 'coming-soon') {
-      return h(ComingSoonLayout)
-    }
     return h(DefaultTheme.Layout, null, {
       'nav-bar-content-after': () => h('div', { 
         class: 'nav-phone',
