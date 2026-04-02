@@ -1,11 +1,11 @@
 ---
 layout: home
-title: Ascent Master Chem - Premium Chemical Solutions for Homes
+title: Ascent Master Chem - Premium Chemical Solutions for Constructions
 description: Leading manufacturer of construction chemicals including bonding agents, grouts, flooring systems, sealants, and specialty products.
 head:
   - - meta
     - name: description
-      content: Ascent Master Chem manufactures premium chemical solutions for homes including bonding agents, epoxy flooring, sealants, and specialty coatings.
+      content: Ascent Master Chem manufactures premium chemical solutions for constructions including bonding agents, epoxy flooring, sealants, and specialty coatings.
 ---
 
 <script setup>
@@ -61,7 +61,7 @@ const testimonials = [
   },
   {
     name: 'Ramesh Natesan',
-    role: 'Homeowner, Erode, Tamilnadu',
+    role: 'Construction Professional, Erode, Tamilnadu',
     content: 'Used their rust remover on our iron gate. The results were amazing! The surface was clean and ready for painting within hours.',
     rating: 5
   }
@@ -83,7 +83,7 @@ const testimonials = [
     <!-- <div class="hero-badge">🏆 Premium Quality Since 2009</div> -->
     <h1 class="hero-title">
       <span class="gradient-text">Premium Chemical Solutions</span><br/>
-      <span class="hero-subtitle-text">for Your Home</span>
+      <span class="hero-subtitle-text">for Your Construction</span>
     </h1>
     <p class="hero-description">
     Ascent Masterchem is a sister concern of Ascent Chemicals, founded in 2009 with 16+ years of experience, delivering 500+ high-performance products across diverse industries.
@@ -156,7 +156,7 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
 <div id="products" class="products-section">
   <div class="section-header">
     <h2 class="section-title">Our Offerings for the Construction Industry</h2>
-    <p class="section-subtitle">Comprehensive range of chemical solutions for every home improvement need</p>
+    <p class="section-subtitle">Comprehensive range of chemical solutions for every construction need</p>
   </div>
 
   <!-- Products -->
@@ -196,7 +196,7 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
 <!-- <div id="testimonials" class="testimonials-section">
   <div class="section-header">
     <h2 class="section-title">What Our Customers Say</h2>
-    <p class="section-subtitle">Trusted by thousands of homeowners and professionals</p>
+    <p class="section-subtitle">Trusted by thousands of construction professionals</p>
   </div>
   <div class="testimonials-grid">
     <div v-for="testimonial in testimonials" :key="testimonial.name" class="testimonial-card">
@@ -264,7 +264,7 @@ Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established ch
 <!-- CTA Section -->
 <!-- <div class="cta-section">
   <div class="cta-content">
-    <h2>Ready to Transform Your Home?</h2>
+    <h2>Ready to Transform Your Construction?</h2>
     <p>Get in touch with our experts to find the perfect chemical solution for your project</p>
     <a href="#contact" class="btn-primary">Contact Us Today</a>
   </div>

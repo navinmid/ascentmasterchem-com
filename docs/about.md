@@ -1,7 +1,7 @@
 ---
 layout: home
 title: About Us - Ascent Master Chem
-description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16 years of industry experience.
+description: Premium Chemical Solutions for Constructions - Founded in 2009 with over 16 years of industry experience.
 ---
 
 <!-- Hero Section -->
@@ -29,7 +29,7 @@ description: Premium Chemical Solutions for Homes - Founded in 2009 with over 16
       Ascent Masterchem is a sister concern of Ascent Chemicals, a well-established chemical manufacturing company founded in 2009 with over 16 years of industry experience. Built on a strong foundation of technical expertise and innovation, Ascent Chemicals has successfully developed and delivered 500+ high-performance products across multiple industrial segments.
     </p>
     <p>
-      Ascent Chemicals has earned a solid reputation in the fields of Paper Chemicals, Textile Chemicals, Water Treatment Chemicals, Fertilizer Chemicals, and Home Care Products. Continuous research, consistent quality, and customer-centric solutions have been the driving forces behind the company's sustained growth and long-term trust in the market.
+      Ascent Chemicals has earned a solid reputation in the fields of Paper Chemicals, Textile Chemicals, Water Treatment Chemicals, Fertilizer Chemicals, and Construction Care Products. Continuous research, consistent quality, and customer-centric solutions have been the driving forces behind the company's sustained growth and long-term trust in the market.
     </p>
   </div>
 

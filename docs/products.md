@@ -1,6 +1,6 @@
 ---
 title: Products - Ascent Master Chem
-description: Comprehensive range of chemical solutions for every home improvement need including concrete admixtures, tile adhesives, bricks admixtures, and more.
+description: Comprehensive range of chemical solutions for every construction need including concrete admixtures, tile adhesives, bricks admixtures, and more.
 layout: page
 ---
 
@@ -47,7 +47,7 @@ const products = [
       <span class="gradient-text">Our Products</span>
     </h1>
     <p class="hero-description">
-      Comprehensive range of chemical solutions for every home improvement need
+      Comprehensive range of chemical solutions for every construction need
     </p>
   </div>
 </div>
@@ -56,7 +56,7 @@ const products = [
 <div id="products" class="products-section">
   <div class="section-header">
     <!-- <h2>Our Offerings for the Construction Industry</h2>
-    <p class="section-subtitle">Comprehensive range of chemical solutions for every home improvement need</p> -->
+    <p class="section-subtitle">Comprehensive range of chemical solutions for every construction need</p> -->
   </div>
 
   <!-- Products -->

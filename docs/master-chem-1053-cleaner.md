@@ -62,7 +62,7 @@ description: Powerful acid-based tile cleaner formulated to remove tough stains,
       <li>Suitable for heavy-duty cleaning tasks</li>
       <li>Economical with adjustable dilution ratios</li>
       <li>Reduces cleaning time and labor</li>
-      <li>Professional results for contractors and homeowners</li>
+      <li>Professional results for contractors and construction professionals</li>
     </ul>
   </div>
 
