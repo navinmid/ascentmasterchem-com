@@ -11,13 +11,13 @@ const products = [
   {
     name: "Dr. Plast 3220 (Fly Ash Bricks)",
     description: "Fly ash bricks are eco-friendly building blocks made from fly ash, cement, and water. They offer high strength, uniform size, and excellent durability, while reducing environmental impact by utilizing industrial by-products. Ideal for walls, partitions, and structural applications, these bricks provide superior insulation, low water absorption, and long-term stability.",
-    image: '/hero/photo-1601058642989.jpg',
+    image: '/hero/fly-ash-bricks-3330.jpg',
     link: 'fly-ash-bricks.html'
   },
   {
     name: "Dr. Plast 3330 (Fly Ash Bricks)",
     description: "Dr. Plast 3330 is our premium-grade fly ash brick formulation, engineered for maximum performance. Featuring an advanced high-density composition with enhanced polymer bonding agents, it delivers significantly superior compressive strength, near-zero water absorption, and outstanding thermal and acoustic insulation compared to standard fly ash bricks. Ideal for high-load structural walls, foundations, and demanding construction environments where exceptional durability and resilience are required.",
-    image: '/hero/photo-1601058642989.jpg',
+    image: '/hero/fly-ash-bricks-3330.jpg',
     link: 'fly-ash-bricks-3330.html'
   },
   {
@@ -43,7 +43,7 @@ const products = [
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('home/admixtures.jpeg')"></div>
+  <div class="hero-image" style="background-image: url('/products/admixtures.jpeg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>

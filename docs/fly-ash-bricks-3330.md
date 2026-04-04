@@ -6,7 +6,7 @@ description: Premium-grade high-density fly ash bricks with superior compressive
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('/hero/photo-1601058642989.jpg')"></div>
+  <div class="hero-image" style="background-image: url('/hero/fly-ash-bricks-3330.jpg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>

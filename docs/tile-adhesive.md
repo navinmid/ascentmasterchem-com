@@ -71,13 +71,13 @@ const products = [
   {
     name: 'Dr. Plast 3123 (Integral Waterproofing Admixture)',
     description: 'Integral waterproofing admixtures reduce the permeability of concrete, significantly improving its resistance to water penetration.',
-    image: '/hero/photo-1563106004.jpg',
+    image: '/hero/waterproofing-3123.jpg',
     link: 'integral-waterproofing-admixture.html'
   },
   {
     name: 'Dr. Plast 3114 (Curing Compound)',
     description: 'Curing compounds are applied to fresh concrete to retain moisture and ensure proper cement hydration.',
-    image: '/hero/photo-1578662996442.jpg',
+    image: '/hero/curing-compound-3114.jpg',
     link: 'curing-compound.html'
   }
 ]
@@ -85,7 +85,7 @@ const products = [
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('products/tile-adhesive.jpeg')"></div>
+  <div class="hero-image" style="background-image: url('/products/tile-adhesive.jpeg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>

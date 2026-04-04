@@ -6,7 +6,7 @@ description: Enhance concrete resistance to water penetration and corrosion.
 
 <!-- Hero Section -->
 <div class="hero-section-detail">
-  <div class="hero-image" style="background-image: url('/hero/photo-1563106004.jpg')"></div>
+  <div class="hero-image" style="background-image: url('/hero/waterproofing-3123.jpg')"></div>
   <div class="hero-background">
     <div class="hero-circle hero-circle-1"></div>
     <div class="hero-circle hero-circle-2"></div>
